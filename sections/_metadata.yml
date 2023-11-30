@@ -1,0 +1,11 @@
+full-csl: ../assets/chicago-syllabus.csl
+page-layout: article
+csl: ../assets/chicago-author-date.csl
+#csl: ../assets/chicago-note-bibliography-with-ibid.csl
+format:
+  html:
+    template-partials:
+      - title-block.html
+filters:
+  - readings.lua
+  - quarto

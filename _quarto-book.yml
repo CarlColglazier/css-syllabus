@@ -1,0 +1,16 @@
+project:
+  title: "Introduction to Computational Social Science"
+  type: book
+#csl: assets/chicago-note-bibliography-with-ibid.csl
+csl: assets/chicago-author-date.csl
+reference-location: margin
+book:
+  author: "Carl Colglazier"
+  chapters:
+    - index.qmd
+    - sections/defining-computational-social-science.qmd
+    - sections/prediction-explanation.qmd
+    - sections/ethics-and-best-practices.qmd
+format:
+  pdf:
+    fig-pos: H

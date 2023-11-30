@@ -1,0 +1,16 @@
+---
+title: Prediction and Explanation
+description: Computational social science's epistemological perspectives
+order: 2
+readings:
+- key: wallachComputationalSocialScience2018a
+  url: https://doi.org/10.1145/3132698
+- key: kingHowCensorshipChina2013
+  url: https://doi.org/10.1017/S0003055413000014
+#- lazerComputationalSocialScience2020
+#- lazerParableGoogleFlu2014
+#- salganikObservingBehavior2018
+- key: hofmanIntegratingExplanationPrediction2021
+  url: https://doi.org/10.1038/s41586-021-03659-0
+---
+

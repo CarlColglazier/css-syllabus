@@ -1,0 +1,22 @@
+
+project:
+  type: website
+  resources:
+  - images/*
+bibliography: references.bib
+website:
+  title: "Computational Social Science Syllabus"
+  sidebar:
+    pinned: true
+    contents:
+    - section: "Information"
+      contents:
+      - syllabus.qmd
+    - section: "Sections"
+      text: "Sections"
+      contents: sections/*
+format:
+  html:
+    toc: true
+  pdf:
+    fig-pos: H

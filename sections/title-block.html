@@ -1,0 +1,50 @@
+<header id="title-block-header" class="quarto-title-block default">
+    <div class="quarto-title">
+    $if(title)$
+    <h1 class="title">$title$</h1>
+    $endif$
+    $if(subtitle)$
+    <p class="subtitle lead">$subtitle$</p>
+    $endif$
+    $if(categories)$
+      $if(quarto-template-params.title-block-categories)$
+    <div class="quarto-categories">
+      $for(categories)$
+      <div class="quarto-category">$categories$</div>
+      $endfor$
+    </div>
+      $endif$
+    $endif$
+    </div>
+    
+    $if(hide-description)$
+    $elseif(description)$
+    <div>
+      <div class="description">
+        $description$
+      </div>
+    </div>
+    $endif$
+    
+    $title-metadata.html()$
+
+    <div class="grid">
+      $if(reading_string)$
+      <div class="readings g-col-8">
+        <h3>Readings</h3>
+        <div>
+        <div>$reading_string$</div>
+        </div>
+      </div>
+      $endif$
+
+      $if(slides)$
+      <div class="slides g-col-4">
+        <h3>Slides</h3>
+        <ul>
+          <li><a href="/slides/$slides$.html">HTML</a></li>
+        </ul>
+      </div>
+      $endif$
+    </div>
+  </header>

@@ -1,0 +1,20 @@
+---
+title: Ethics and Best Practices
+description: Challenges for computational social science in practice
+order: 3
+readings:
+- key: rocherEstimatingSuccessReidentifications2019
+  url: https://doi.org/10.1038/s41467-019-10933-3
+- key: zookTenSimpleRules2017
+  url: https://doi.org/10.1371/journal.pcbi.1005399
+- lazerParableGoogleFlu2014
+---
+
+In 2006, AOL Research released a dataset with 20 million searches from over 600 thousand accounts. It seemed like a good idea at the time: the data had been deanonymized after all. 
+
+
+<!--
+https://en.wikipedia.org/wiki/AOL_search_log_release
+
+https://cpg.doc.ic.ac.uk/individual-risk/
+-->

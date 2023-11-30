@@ -1,0 +1,56 @@
+---
+title: Defining Computational Social Science
+subtitle: What exactly is "computational social science"?
+---
+
+## Two trends in computing
+
+At one point computers were large, expensive, and rare.
+
+![](/images/ENIAC.jpeg){fig-alt="A technician changes a tube on ENIAC" fig-align="center"}
+
+## Two trends in computing
+
+Computers are getting smaller and cheaper.
+
+![](/images/historical-cost-of-computer-memory-and-storage.png){fig-align="center"}
+
+::: {.footer}
+Source: [Our World In Data](https://ourworldindata.org/grapher/historical-cost-of-computer-memory-and-storage)
+:::
+
+## Two trends in computing
+
+Computing is becoming more ubiquitous.
+
+![](/images/ict-adoption-per-100-people.png){fig-align="center"}
+
+::: {.footer}
+Source: [Our World In Data](https://ourworldindata.org/grapher/ict-adoption-per-100-people)
+:::
+
+
+# How have the social sciences changed alongside the rise of computers?
+
+## Methods
+
++ Advances in computationally expensive statistical techniques such as Bayesian inference [@fienbergWhenDidBayesian2006 p. 24]
++ Changes in collaborative patterns between scientists, though not necessarily an increase in productivity [@goldsteinCommunicationCostsScience2023]
+
+## Data
+
++ Trace data allow us to observe existing social processes at scale [@kingEnsuringDataRichFuture2011]
++ New communication methods create new areas of study [@boydSocialNetworkSites2007]
+
+##
+
+So we have
+
+1. A lot more data on social processes; and
+2. The computational power to analyze it.
+
+## Computational Social Science
+
+@lazerComputationalSocialScience2009 ...
+
+## References

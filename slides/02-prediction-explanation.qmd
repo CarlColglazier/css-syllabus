@@ -1,0 +1,36 @@
+---
+title: Prediction and Explanation
+---
+
+# Philosophy of Science
+
+## What is Science?
+
+@thesciencecouncilOurDefinitionScience, a body overseeing scientific standards and practice within the UK, came up with one definition:
+
+> Science is the pursuit of knowledge and understanding of the natural and social world following a systematic methodology based on evidence.
+
+## Prediction and Explanation Schema
+
+@hofmanIntegratingExplanationPrediction2021's 2x2:
+
+|  | No intervention or distributional changes | Under interventions or distributional changes  |
+|:---|:---|:---|
+| Focus on specific features or effects | Descriptive modelling (1) | Explanatory modelling (2) |
+| Focus on predicting outcomes          | Predictive modelling (3) | Integrative modelling (4)  |
+
+## Suggestions
+
+::: {.tiny-table}
+
+|Granularity|Descriptive modelling|Explanatory modelling|Predictive modelling|Integrative modelling|
+|:---|:---|:---|:---|:---|
+||Describes something|Tests a causal claim|Tests a (passive) predictive claim|Tests a claim both for causality and predictive accuracy|
+|Low|Reports stylized facts|Tests for a non-zero effect|Predicts directional or aggregate outcomes|Predicts directional or aggregate outcomes under changes or interventions|
+|Medium|Reports population averages|Tests for a directional effect|Predicts magnitude and direction of aggregate outcomes|Predicts magnitude and direction of aggregate outcomes under changes or interventions|
+|High|Reports individual outcomes|Estimates the magnitude and direction of an effect|Predicts magnitude and direction of individual outcomes|Predicts magnitude and direction of individual outcomes under changes or interventions|
+
+:::
+
+
+## References

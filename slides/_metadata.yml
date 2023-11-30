@@ -1,0 +1,9 @@
+author: ""
+reference-location: margin
+format:
+  revealjs:
+    theme:
+    - default
+    - ../assets/slide-theme.scss
+    center-title-slide: true
+    embed-resources: true

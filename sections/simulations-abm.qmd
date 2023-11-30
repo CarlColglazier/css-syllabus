@@ -1,0 +1,9 @@
+---
+title: Simulations and Agent-based Models (ABMs)
+order: 4
+readings:
+- key: conteAgentbasedModelingComputational2014
+  url: https://doi.org/10.3389/fpsyg.2014.00668
+- key: janssenEmpiricallyBasedAgentbased2006
+  url: https://www.jstor.org/stable/26265994
+---

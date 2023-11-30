@@ -1,0 +1,82 @@
+---
+title: Syllabus
+#author: Carl Colglazier
+csl: assets/chicago-syllabus.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+number-depth: 3
+sections: "sections/*.qmd"
+#filters:
+#  - sections/readings.lua
+#  - quarto
+format:
+  pdf: default
+  html: default
+---
+
+### Audience
+
+This course is catered to early graduate students or advanced undergraduates in the social sciences who have some familiarity with R and are interested in learning more about computational social science. The syllabus is designed to be taught over the course of a quarter (ten weeks). As the majority of students will work in jobs outside of academia, a number of examples are drawn from industry. 
+
+### Format
+
+The course is designed to be taught in a flipped classroom format, with students reading the assigned readings before class and then discussing the readings or working on exercises in class.
+
+### Learning Objectives
+
+By the end of the course, students should be able to:
+
+- Define computational social science as a field and explain how it differs from other fields
+- Explain the strengths and weaknesses of different computational social science methods
+- Apply computational social science methods to answer research questions
+- Evaluate computational social science research
+
+::: {.content-visible unless-profile="book"}
+
+# Readings 
+
+```{r, echo=FALSE, output=FALSE}
+library(rmarkdown)
+library(here)
+library(glue)
+
+listing_location <- yaml_front_matter(here("syllabus.qmd"))$sections
+
+listing_files <- Sys.glob(here(listing_location))
+
+reading_key <- function(x) {
+  if (typeof(x) == "character") {
+    return(x)
+  } else {
+    return(x$key)
+  }
+}
+
+format_section <- function(file) {
+  fm <- yaml_front_matter(file)
+  title <- glue("## {fm$title}\n\n")
+  description <- glue("{fm$description}\n\n")
+  readings <- ""
+  if (length(fm$readings) > 0) {
+    # get all "key" in readings
+    keys <- lapply(fm$readings, reading_key)
+    readings <- paste0("+ [@", paste(keys, collapse = "]\n+ [@"), "]\n")
+  }
+  st <- paste(title, description, readings, sep = "\n", collapse = '')
+  return(st)
+}
+
+get_order <- function(file) {
+  fm <- yaml_front_matter(file)
+  return(fm$order)
+}
+```
+
+```{r, echo=FALSE, output='asis'}
+sections <- lapply(names(sort(sapply(listing_files, get_order))), format_section)
+x <- paste(sections, sep="\n", collapse = NULL)
+cat(x, sep="\n")
+```
+
+:::

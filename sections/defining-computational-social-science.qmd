@@ -1,0 +1,39 @@
+---
+title: Defining Computational Social Science
+description: What exactly is "computational social science"?
+order: 1
+readings:
+- key: lazerComputationalSocialScience2009
+  url: https://doi.org/10.1126/science.1167742
+- key: lazerComputationalSocialScience2020
+  url: https://doi.org/10.1126/science.aaz8170
+- key: salganikIntroduction2018
+  url: https://www.bitbybitbook.com/en/1st-ed/introduction/
+slides: 01-defining-computational-social-science-slides
+link-citations: true
+reference-location: margin
+cap-location: margin
+format:
+  html: default
+---
+
+Advances in computing have facilitated two trends:
+
+1.  Computers are getting smaller and cheaper.
+2.  Computing is becoming more ubiquitous.
+
+::: {.column-page-right layout-ncol="2"}
+![](/images/historical-cost-of-computer-memory-and-storage.png)
+
+![](/images/ict-adoption-per-100-people.png)
+:::
+
+The effects of these trends are visible on the social sciences. For example, advances in processing power and computational algorithms have enabled new approaches to statistics which rely on Bayesian inference [@fienbergWhenDidBayesian2006 p. 24]. From a more human-centered perspective, interactive computational technologies enable new forms of collaboration between scientists, though not necessarily an increase in productivity [@goldsteinCommunicationCostsScience2023].
+
+At the same time, the ubiquity of computation continues to produce rich datasets with great potential for social science analysis [@kingEnsuringDataRichFuture2011]. Further, the new communication methods have become areas of study in and of themselves [@boydSocialNetworkSites2007].
+
+In response to these trends, some scientists view *computational social science* as an emerging field in its own right. @lazerComputationalSocialScience2009 presents a vision for the field as one which should not be captured by large companies or researchers with privileged access to data, but rather one based on open science. In their view, the ubiquity of data collection combined with the computational resource to analyze offers opportunities to enrich social science research; however, this new paradigm brings new methodological challenges in addition to issues related to data access and privacy [@lazerComputationalSocialScience2009 722].
+
+This paper coincided with the "Web 2.0" era of the internet, which relied upon services creating a virtuous cycle by providing data to then be consumed and reused [@oreillytimWhatWeb2005]. More than a decade later, a retrospective of the extent to which the vision laid out in @lazerComputationalSocialScience2009 has been achieved remains mixed. Scientists have used these paradigms to do some very interesting research, which we will discuss throughout this course, yet many of the challenges remain and the full vision remains unrealized in many ways.
+
+In a follow up article, @lazerComputationalSocialScience2020

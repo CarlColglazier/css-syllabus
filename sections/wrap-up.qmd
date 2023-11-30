@@ -1,0 +1,9 @@
+---
+title: Wrapping Up
+order: 9
+readings:
+  - key: vanatteveldtWhenCommunicationMeets2018
+    url: https://doi.org/10.1080/19312458.2018.1458084
+  - key: atheyPredictionUsingBig2017
+    url: https://doi.org/10.1126/science.aal4321
+---
