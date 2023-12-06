@@ -4,7 +4,7 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "This course is catered to early graduate students or advanced undergraduates in the social sciences who have some familiarity with R and are interested in learning more about computational social science. The syllabus is designed to be taught over the course of a quarter (ten weeks). As the majority of students will work in jobs outside of academia, a number of examples are drawn from industry.",
+    "text": "This course is catered to early advanced undergraduates in the social sciences who have some familiarity with computer programming.",
     "crumbs": [
       "Information",
       "Syllabus"
@@ -33,22 +33,22 @@
     ]
   },
   {
-    "objectID": "syllabus.html#ethics-and-best-practices",
-    "href": "syllabus.html#ethics-and-best-practices",
+    "objectID": "syllabus.html#simulations-and-agent-based-models-abms",
+    "href": "syllabus.html#simulations-and-agent-based-models-abms",
     "title": "Syllabus",
-    "section": "Ethics and Best Practices",
-    "text": "Ethics and Best Practices\nChallenges for computational social science in practice\n\nLuc Rocher, Julien M. Hendrickx, and Yves-Alexandre de Montjoye, “Estimating the Success of Re-Identifications in Incomplete Datasets Using Generative Models,” Nature Communications 10, no. 1 (July 2019): 3069, https://doi.org/10.1038/s41467-019-10933-3.\nMatthew Zook et al., “Ten Simple Rules for Responsible Big Data Research,” PLOS Computational Biology 13, no. 3 (March 2017): e1005399, https://doi.org/10.1371/journal.pcbi.1005399.\nDavid Lazer et al., “The Parable of Google Flu: Traps in Big Data Analysis,” Science 343, no. 6176 (March 2014): 1203–5, https://doi.org/10.1126/science.1248506.",
+    "section": "Simulations and Agent-based Models (ABMs)",
+    "text": "Simulations and Agent-based Models (ABMs)\n\nRosaria Conte and Mario Paolucci, “On Agent-Based Modeling and Computational Social Science,” Frontiers in Psychology 5 (2014), https://doi.org/10.3389/fpsyg.2014.00668.\nIvan Smirnov, Camelia Oprea, and Markus Strohmaier, “Toxic Comments Are Associated with Reduced Activity of Volunteer Editors on Wikipedia,” PNAS Nexus 2, no. 12 (December 2023): pgad385, https://doi.org/10.1093/pnasnexus/pgad385.",
     "crumbs": [
       "Information",
       "Syllabus"
     ]
   },
   {
-    "objectID": "syllabus.html#simulations-and-agent-based-models-abms",
-    "href": "syllabus.html#simulations-and-agent-based-models-abms",
+    "objectID": "syllabus.html#ethics-and-best-practices",
+    "href": "syllabus.html#ethics-and-best-practices",
     "title": "Syllabus",
-    "section": "Simulations and Agent-based Models (ABMs)",
-    "text": "Simulations and Agent-based Models (ABMs)\n\nRosaria Conte and Mario Paolucci, “On Agent-Based Modeling and Computational Social Science,” Frontiers in Psychology 5 (2014), https://doi.org/10.3389/fpsyg.2014.00668.\nMarco A. Janssen and Elinor Ostrom, “Empirically Based, Agent-based Models,” Ecology and Society 11, no. 2 (2006), https://www.jstor.org/stable/26265994.",
+    "section": "Ethics and Best Practices",
+    "text": "Ethics and Best Practices\nChallenges for computational social science in practice\n\nCharlotte Jee, “You’re Very Easy to Track down, Even When Your Data Has Been Anonymized,” MIT Technology Review (https://www.technologyreview.com/2019/07/23/134090/youre-very-easy-to-track-down-even-when-your-data-has-been-anonymized/, July 2019).\nMatthew Zook et al., “Ten Simple Rules for Responsible Big Data Research,” PLOS Computational Biology 13, no. 3 (March 2017): e1005399, https://doi.org/10.1371/journal.pcbi.1005399.\nDavid Lazer et al., “The Parable of Google Flu: Traps in Big Data Analysis,” Science 343, no. 6176 (March 2014): 1203–5, https://doi.org/10.1126/science.1248506.",
     "crumbs": [
       "Information",
       "Syllabus"
@@ -59,7 +59,7 @@
     "href": "syllabus.html#text-as-data",
     "title": "Syllabus",
     "section": "Text as Data",
-    "text": "Text as Data",
+    "text": "Text as Data\n\nPaul DiMaggio, “Adapting Computational Text Analysis to Social Science (and Vice Versa),” Big Data & Society 2, no. 2 (December 2015): 2053951715602908, https://doi.org/10.1177/2053951715602908.\nJacob Jensen et al., “Political Polarization and the Dynamics of Political Language: Evidence from 130 Years of Partisan Speech [with Comments and Discussion],” Brookings Papers on Economic Activity, 2012, 1–81, https://www.jstor.org/stable/41825364.",
     "crumbs": [
       "Information",
       "Syllabus"
@@ -81,7 +81,7 @@
     "href": "syllabus.html#network-analysis",
     "title": "Syllabus",
     "section": "Network Analysis",
-    "text": "Network Analysis",
+    "text": "Network Analysis\n\nPeter Sheridan Dodds, Roby Muhamad, and Duncan J. Watts, “An Experimental Study of Search in Global Social Networks,” Science 301, no. 5634 (August 2003): 827–29, https://doi.org/10.1126/science.1081058.\nPablo Barberá et al., “The Critical Periphery in the Growth of Social Protests,” PLOS ONE 10, no. 11 (November 2015): e0143611, https://doi.org/10.1371/journal.pone.0143611.\nChristopher A. Bail et al., “Exposure to Opposing Views on Social Media Can Increase Political Polarization,” Proceedings of the National Academy of Sciences 115, no. 37 (September 2018): 9216–21, https://doi.org/10.1073/pnas.1804840115.",
     "crumbs": [
       "Information",
       "Syllabus"
@@ -92,7 +92,7 @@
     "href": "syllabus.html#crowds-and-communities",
     "title": "Syllabus",
     "section": "Crowds and Communities",
-    "text": "Crowds and Communities",
+    "text": "Crowds and Communities\n\nAaron Shaw and Benjamin Mako Hill, “Laboratories of Oligarchy? How the Iron Law Extends to Peer Production,” Journal of Communication 64, no. 2 (2014): 215–38, https://doi.org/10.1111/jcom.12082.\nLev Muchnik, Sinan Aral, and Sean J. Taylor, “Social Influence Bias: A Randomized Experiment,” Science 341, no. 6146 (August 2013): 647–51, https://doi.org/10.1126/science.1240466.",
     "crumbs": [
       "Information",
       "Syllabus"
@@ -103,7 +103,7 @@
     "href": "syllabus.html#wrapping-up",
     "title": "Syllabus",
     "section": "Wrapping Up",
-    "text": "Wrapping Up\n\nWouter van Atteveldt and Tai-Quan Peng, “When Communication Meets Computation: Opportunities, Challenges, and Pitfalls in Computational Communication Science,” Communication Methods and Measures 12, no. 2-3 (April 2018): 81–92, https://doi.org/10.1080/19312458.2018.1458084.\nSusan Athey, “Beyond Prediction: Using Big Data for Policy Problems,” Science 355, no. 6324 (February 2017): 483–85, https://doi.org/10.1126/science.aal4321.",
+    "text": "Wrapping Up\n\nWouter van Atteveldt and Tai-Quan Peng, “When Communication Meets Computation: Opportunities, Challenges, and Pitfalls in Computational Communication Science,” Communication Methods and Measures 12, no. 2-3 (April 2018): 81–92, https://doi.org/10.1080/19312458.2018.1458084.\nAlexandra Olteanu et al., “Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries,” Frontiers in Big Data 2 (2019), https://doi.org/10.3389/fdata.2019.00013.",
     "crumbs": [
       "Information",
       "Syllabus"
@@ -138,55 +138,119 @@
     "text": "References\n\n\n\n\n\n\nHofman, Jake M., Duncan J. Watts, Susan Athey, Filiz Garip, Thomas L. Griffiths, Jon Kleinberg, Helen Margetts, et al. 2021. “Integrating Explanation and Prediction in Computational Social Science.” Nature 595 (7866): 181–88. https://doi.org/10.1038/s41586-021-03659-0.\n\n\nThe Science Council. n.d. “Our Definition of Science.” The Science Council. https://sciencecouncil.org/about-science/our-definition-of-science/. Accessed November 22, 2023."
   },
   {
+    "objectID": "sections/text-as-data.html",
+    "href": "sections/text-as-data.html",
+    "title": "Text as Data",
+    "section": "",
+    "text": "References\n\nDiMaggio, Paul. 2015. “Adapting Computational Text Analysis to Social Science (and Vice Versa).” Big Data & Society 2 (2): 2053951715602908. https://doi.org/10.1177/2053951715602908.\n\n\nJensen, Jacob, Suresh Naidu, Ethan Kaplan, Laurence Wilse-Samson, David Gergen, Michael Zuckerman, and Arthur Spirling. 2012. “Political Polarization and the Dynamics of Political Language: Evidence from 130 Years of Partisan Speech [with Comments and Discussion].” Brookings Papers on Economic Activity, 1–81. https://www.jstor.org/stable/41825364."
+  },
+  {
     "objectID": "sections/experiments-and-causal-inference.html",
     "href": "sections/experiments-and-causal-inference.html",
     "title": "Experiments and Causal Inference",
     "section": "",
-    "text": "References\n\nChandrasekharan, Eshwar, Umashanthi Pavalanathan, Anirudh Srinivasan, Adam Glynn, Jacob Eisenstein, and Eric Gilbert. 2017. “You Can’t Stay Here: The Efficacy of Reddit’s 2015 Ban Examined Through Hate Speech.” Proceedings of the ACM on Human-Computer Interaction 1 (CSCW): 1–22. https://doi.org/10.1145/3134666.\n\n\nGrimmer, Justin. 2015. “We Are All Social Scientists Now: How Big Data, Machine Learning, and Causal Inference Work Together.” PS: Political Science & Politics 48 (1): 80–83. https://doi.org/10.1017/S1049096514001784.",
-    "crumbs": [
-      "Sections",
-      "Experiments and Causal Inference"
-    ]
+    "text": "You have have heard the phrase “correlation does not imply causation”. This is usually used to say that just because two variables are associated with each other, that does not mean one causes each other. This website can generate spurious correlations for you.\nSo if correlation does not imply causation, how do we establish causation? Generally, we use experiments. For example, in medicine, we might test the effectiveness of a new drug by running a randomized control trial (RCT). People are split into a treatment group, where they receive the drug, and a control group, where they do not receive the drug. Assuming that the group was randomized correctly, the we can attribute the difference in outcomes between the two groups to the drug.\nIdeally we would be able to have experiments for everything, but this is not always practical. Causal inference gives us tools to answer why questions when we cannot use randomized control trials.\nThe fundamental problem of causal inference is that we cannot observe both a treated unit and its untreated counterfactual at the same time. The goal of causal inference approaches to provide a framework to answer causal questions regardless.\nSome popular techniques include:\n\nMatching: find other units with similar characteristics.\n\n\n\n\n\nReferences\n\nChandrasekharan, Eshwar, Umashanthi Pavalanathan, Anirudh Srinivasan, Adam Glynn, Jacob Eisenstein, and Eric Gilbert. 2017. “You Can’t Stay Here: The Efficacy of Reddit’s 2015 Ban Examined Through Hate Speech.” Proceedings of the ACM on Human-Computer Interaction 1 (CSCW): 1–22. https://doi.org/10.1145/3134666.\n\n\nGrimmer, Justin. 2015. “We Are All Social Scientists Now: How Big Data, Machine Learning, and Causal Inference Work Together.” PS: Political Science & Politics 48 (1): 80–83. https://doi.org/10.1017/S1049096514001784."
   },
   {
     "objectID": "sections/ethics-and-best-practices.html",
     "href": "sections/ethics-and-best-practices.html",
     "title": "Ethics and Best Practices",
     "section": "",
-    "text": "In 2006, AOL Research released a dataset with 20 million searches from over 600 thousand accounts. It seemed like a good idea at the time: the data had been deanonymized after all.\n\n\n\n\n\nReferences\n\nLazer, David, Ryan Kennedy, Gary King, and Alessandro Vespignani. 2014. “The Parable of Google Flu: Traps in Big Data Analysis.” Science 343 (6176): 1203–5. https://doi.org/10.1126/science.1248506.\n\n\nRocher, Luc, Julien M. Hendrickx, and Yves-Alexandre de Montjoye. 2019. “Estimating the Success of Re-Identifications in Incomplete Datasets Using Generative Models.” Nature Communications 10 (1): 3069. https://doi.org/10.1038/s41467-019-10933-3.\n\n\nZook, Matthew, Solon Barocas, danah boyd, Kate Crawford, Emily Keller, Seeta Peña Gangadharan, Alyssa Goodman, et al. 2017. “Ten Simple Rules for Responsible Big Data Research.” PLOS Computational Biology 13 (3): e1005399. https://doi.org/10.1371/journal.pcbi.1005399.",
+    "text": "In 2006, AOL Research released a dataset with 20 million searches from over 600 thousand accounts. It seemed like a good idea at the time: the data had been deanonymized after all! The problem is that deanonymization does not quite work like that at scale. If you look at your search history, you probably have a lot of stuff that uniquely identifies you: say, directions to your home address or other things unique to you. And with data at this scale, it’s easy to combine these data with other data to further find out more information about individual people. For example, the New York Times identified many people in the dataset by combining their search history with data from the phone book (a record of names and phone numbers which was common at the time) (Barbaro and Jr 2006).\nIn fact, it is possible to deanonymize many people using simple demographic data. Rocher, Hendrickx, and de Montjoye (2019) created a model which showed that “99.98% of Americans would be correctly re-identified in any dataset using 15 demographic attributes”. You can try to see the chance that a dataset with has an entry with your zip code, birthday, and gender is about you in the embed below (no data is shared with any server on this website).",
     "crumbs": [
       "Sections",
       "Ethics and Best Practices"
     ]
   },
   {
+    "objectID": "sections/ethics-and-best-practices.html#can-data-be-deanonymized",
+    "href": "sections/ethics-and-best-practices.html#can-data-be-deanonymized",
+    "title": "Ethics and Best Practices",
+    "section": "",
+    "text": "In 2006, AOL Research released a dataset with 20 million searches from over 600 thousand accounts. It seemed like a good idea at the time: the data had been deanonymized after all! The problem is that deanonymization does not quite work like that at scale. If you look at your search history, you probably have a lot of stuff that uniquely identifies you: say, directions to your home address or other things unique to you. And with data at this scale, it’s easy to combine these data with other data to further find out more information about individual people. For example, the New York Times identified many people in the dataset by combining their search history with data from the phone book (a record of names and phone numbers which was common at the time) (Barbaro and Jr 2006).\nIn fact, it is possible to deanonymize many people using simple demographic data. Rocher, Hendrickx, and de Montjoye (2019) created a model which showed that “99.98% of Americans would be correctly re-identified in any dataset using 15 demographic attributes”. You can try to see the chance that a dataset with has an entry with your zip code, birthday, and gender is about you in the embed below (no data is shared with any server on this website).",
+    "crumbs": [
+      "Sections",
+      "Ethics and Best Practices"
+    ]
+  },
+  {
+    "objectID": "sections/ethics-and-best-practices.html#common-ethical-principles",
+    "href": "sections/ethics-and-best-practices.html#common-ethical-principles",
+    "title": "Ethics and Best Practices",
+    "section": "Common Ethical Principles",
+    "text": "Common Ethical Principles\nEthical issues in research are not a new problem. In response to the Tuskegee Syphilis Study1, “The Belmont Report” (1979) created a set of ethical principles and guidelines to protect human subjects:\n\nRespect for persons\nBeneficence\nJustice\n\nThese principles remain influential in many fields. As it relates to Information and Communications Technologies (ICT), Kenneally and Dittrich (2012) added an additional principle: respect for law and public interest.",
+    "crumbs": [
+      "Sections",
+      "Ethics and Best Practices"
+    ]
+  },
+  {
+    "objectID": "sections/ethics-and-best-practices.html#beware-of-pitfalls",
+    "href": "sections/ethics-and-best-practices.html#beware-of-pitfalls",
+    "title": "Ethics and Best Practices",
+    "section": "Beware of Pitfalls",
+    "text": "Beware of Pitfalls\nMost pracitioners of computational social science have good intentions at heart; however, it is important to be cautious if not defensive about potential negative effects of research. Lazer et al. (2014) illustrates an example of the pitfall of “big data hubris”, where one might be tempted to ignore foundational issues just become they have access to a lot of data. Google Flu Trends (GFT) tried to predict flu outbreaks based on search data. The idea was that an increase in searches related to flu symptoms would indicate an upcoming flu outbreak. While GFT was initially seen as rather successful, it consistently overestimated the prevalence of the flu. In fact, just using data from three weeks ago turned out to be a better predictor than GFT!\nLazer et al. (2014) suggest a few things that could have gone wrong here. First, Google is not a static entity. The search algorthm is constantly changing. They suggest this highlights the needs for greater transparency and replicability in research. Further, they suggest there was little value in improving over the existing, simpler lagged model from the CDC. Just because you can does not always mean you should. Finally, they caution that just because a model has more data behind it, that does not guarentee it is better.",
+    "crumbs": [
+      "Sections",
+      "Ethics and Best Practices"
+    ]
+  },
+  {
+    "objectID": "sections/network-analysis.html",
+    "href": "sections/network-analysis.html",
+    "title": "Network Analysis",
+    "section": "",
+    "text": "References\n\nBail, Christopher A., Lisa P. Argyle, Taylor W. Brown, John P. Bumpus, Haohan Chen, M. B. Fallin Hunzaker, Jaemin Lee, Marcus Mann, Friedolin Merhout, and Alexander Volfovsky. 2018. “Exposure to Opposing Views on Social Media Can Increase Political Polarization.” Proceedings of the National Academy of Sciences 115 (37): 9216–21. https://doi.org/10.1073/pnas.1804840115.\n\n\nBarberá, Pablo, Ning Wang, Richard Bonneau, John T. Jost, Jonathan Nagler, Joshua Tucker, and Sandra González-Bailón. 2015. “The Critical Periphery in the Growth of Social Protests.” PLOS ONE 10 (11): e0143611. https://doi.org/10.1371/journal.pone.0143611.\n\n\nDodds, Peter Sheridan, Roby Muhamad, and Duncan J. Watts. 2003. “An Experimental Study of Search in Global Social Networks.” Science 301 (5634): 827–29. https://doi.org/10.1126/science.1081058."
+  },
+  {
     "objectID": "sections/wrap-up.html",
     "href": "sections/wrap-up.html",
     "title": "Wrapping Up",
     "section": "",
-    "text": "References\n\nAthey, Susan. 2017. “Beyond Prediction: Using Big Data for Policy Problems.” Science 355 (6324): 483–85. https://doi.org/10.1126/science.aal4321.\n\n\nvan Atteveldt, Wouter, and Tai-Quan Peng. 2018. “When Communication Meets Computation: Opportunities, Challenges, and Pitfalls in Computational Communication Science.” Communication Methods and Measures 12 (2-3): 81–92. https://doi.org/10.1080/19312458.2018.1458084.",
-    "crumbs": [
-      "Sections",
-      "Wrapping Up"
-    ]
+    "text": "References\n\nOlteanu, Alexandra, Carlos Castillo, Fernando Diaz, and Emre Kıcıman. 2019. “Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries.” Frontiers in Big Data 2. https://doi.org/10.3389/fdata.2019.00013.\n\n\nvan Atteveldt, Wouter, and Tai-Quan Peng. 2018. “When Communication Meets Computation: Opportunities, Challenges, and Pitfalls in Computational Communication Science.” Communication Methods and Measures 12 (2-3): 81–92. https://doi.org/10.1080/19312458.2018.1458084."
+  },
+  {
+    "objectID": "sections/crowds-and-communities.html",
+    "href": "sections/crowds-and-communities.html",
+    "title": "Crowds and Communities",
+    "section": "",
+    "text": "References\n\nMuchnik, Lev, Sinan Aral, and Sean J. Taylor. 2013. “Social Influence Bias: A Randomized Experiment.” Science 341 (6146): 647–51. https://doi.org/10.1126/science.1240466.\n\n\nShaw, Aaron, and Benjamin Mako Hill. 2014. “Laboratories of Oligarchy? How the Iron Law Extends to Peer Production.” Journal of Communication 64 (2): 215–38. https://doi.org/10.1111/jcom.12082."
   },
   {
     "objectID": "sections/simulations-abm.html",
     "href": "sections/simulations-abm.html",
     "title": "Simulations and Agent-based Models (ABMs)",
     "section": "",
-    "text": "References\n\nConte, Rosaria, and Mario Paolucci. 2014. “On Agent-Based Modeling and Computational Social Science.” Frontiers in Psychology 5. https://doi.org/10.3389/fpsyg.2014.00668.\n\n\nJanssen, Marco A., and Elinor Ostrom. 2006. “Empirically Based, Agent-based Models.” Ecology and Society 11 (2). https://www.jstor.org/stable/26265994.",
-    "crumbs": [
-      "Sections",
-      "Simulations and Agent-based Models (ABMs)"
-    ]
+    "text": "Previously, we introduced prediction, explaination, and causality as important parts of the scientific process. Here, we introduce yet another one: simulation.\nWhy might we care about simulating processes?\nWriting outline:\n\nrole of theory\nfrom the ground up\nareas where getting observational data may be impractical or unethical\nare we just making stuff up? how can we validate?\n\n\n\n\n\nReferences\n\nConte, Rosaria, and Mario Paolucci. 2014. “On Agent-Based Modeling and Computational Social Science.” Frontiers in Psychology 5. https://doi.org/10.3389/fpsyg.2014.00668.\n\n\nSmirnov, Ivan, Camelia Oprea, and Markus Strohmaier. 2023. “Toxic Comments Are Associated with Reduced Activity of Volunteer Editors on Wikipedia.” PNAS Nexus 2 (12): pgad385. https://doi.org/10.1093/pnasnexus/pgad385."
   },
   {
     "objectID": "sections/defining-computational-social-science.html",
     "href": "sections/defining-computational-social-science.html",
     "title": "Defining Computational Social Science",
     "section": "",
-    "text": "Advances in computing have facilitated two trends:\n\nComputers are getting smaller and cheaper.\nComputing is becoming more ubiquitous.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe effects of these trends are visible on the social sciences. For example, advances in processing power and computational algorithms have enabled new approaches to statistics which rely on Bayesian inference (Fienberg 2006, 24). From a more human-centered perspective, interactive computational technologies enable new forms of collaboration between scientists, though not necessarily an increase in productivity (Goldstein 2023).\nAt the same time, the ubiquity of computation continues to produce rich datasets with great potential for social science analysis (King 2011). Further, the new communication methods have become areas of study in and of themselves (boyd and Ellison 2007).\nIn response to these trends, some scientists view computational social science as an emerging field in its own right. D. Lazer et al. (2009) presents a vision for the field as one which should not be captured by large companies or researchers with privileged access to data, but rather one based on open science. In their view, the ubiquity of data collection combined with the computational resource to analyze offers opportunities to enrich social science research; however, this new paradigm brings new methodological challenges in addition to issues related to data access and privacy (D. Lazer et al. 2009, 722).\nThis paper coincided with the “Web 2.0” era of the internet, which relied upon services creating a virtuous cycle by providing data to then be consumed and reused (O’Reilly, Tim 2005). More than a decade later, a retrospective of the extent to which the vision laid out in D. Lazer et al. (2009) has been achieved remains mixed. Scientists have used these paradigms to do some very interesting research, which we will discuss throughout this course, yet many of the challenges remain and the full vision remains unrealized in many ways.\nIn a follow up article, D. M. J. Lazer et al. (2020)\n\n\n\n\nReferences\n\nboyd, danah m., and Nicole B. Ellison. 2007. “Social Network Sites: Definition, History, and Scholarship.” Journal of Computer-Mediated Communication 13 (1): 210–30. https://doi.org/10.1111/j.1083-6101.2007.00393.x.\n\n\nFienberg, Stephen E. 2006. “When Did Bayesian Inference Become \"Bayesian\"?” Bayesian Analysis 1 (1). https://doi.org/10.1214/06-BA101.\n\n\nGoldstein, Ezra G. 2023. “Communication Costs in Science: Evidence from the National Science Foundation Network.” Industrial and Corporate Change, June. https://doi.org/10.1093/icc/dtad025.\n\n\nKing, Gary. 2011. “Ensuring the Data-Rich Future of the Social Sciences.” Science 331 (6018): 719–21. https://doi.org/10.1126/science.1197872.\n\n\nLazer, David M. J., Alex Pentland, Duncan J. Watts, Sinan Aral, Susan Athey, Noshir Contractor, Deen Freelon, et al. 2020. “Computational Social Science: Obstacles and Opportunities.” Science 369 (6507): 1060–62. https://doi.org/10.1126/science.aaz8170.\n\n\nLazer, David, Alex Pentland, Lada Adamic, Sinan Aral, Albert-László Barabási, Devon Brewer, Nicholas Christakis, et al. 2009. “Computational Social Science.” Science 323 (5915): 721–23. https://doi.org/10.1126/science.1167742.\n\n\nO’Reilly, Tim. 2005. “What Is Web 2.0.” O’Reilly Media. https://web.archive.org/web/20130424204457/http://oreilly.com/web2/archive/what-is-web-20.html.\n\n\nSalganik, Matthew J. 2018. “Introduction.” In Bit by Bit: Social Research in the Digital Age, 1–12. Princeton: Princeton University Press.",
+    "text": "Advances in computing have facilitated two trends:\n\nComputers are getting smaller and cheaper.\nComputing is becoming more ubiquitous.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe effects of these trends are visible on the social sciences. For example, advances in processing power and computational algorithms have enabled new approaches to statistics which rely on Bayesian inference (Fienberg 2006, 24). From a more human-centered perspective, interactive computational technologies enable new forms of collaboration between scientists, though not necessarily an increase in productivity (Goldstein 2023).\nAt the same time, the ubiquity of computation continues to produce rich datasets with great potential for social science analysis (King 2011). Further, the new communication methods have become areas of study in and of themselves (boyd and Ellison 2007).",
+    "crumbs": [
+      "Sections",
+      "Defining Computational Social Science"
+    ]
+  },
+  {
+    "objectID": "sections/defining-computational-social-science.html#background",
+    "href": "sections/defining-computational-social-science.html#background",
+    "title": "Defining Computational Social Science",
+    "section": "",
+    "text": "Advances in computing have facilitated two trends:\n\nComputers are getting smaller and cheaper.\nComputing is becoming more ubiquitous.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe effects of these trends are visible on the social sciences. For example, advances in processing power and computational algorithms have enabled new approaches to statistics which rely on Bayesian inference (Fienberg 2006, 24). From a more human-centered perspective, interactive computational technologies enable new forms of collaboration between scientists, though not necessarily an increase in productivity (Goldstein 2023).\nAt the same time, the ubiquity of computation continues to produce rich datasets with great potential for social science analysis (King 2011). Further, the new communication methods have become areas of study in and of themselves (boyd and Ellison 2007).",
+    "crumbs": [
+      "Sections",
+      "Defining Computational Social Science"
+    ]
+  },
+  {
+    "objectID": "sections/defining-computational-social-science.html#proposing-computational-social-science",
+    "href": "sections/defining-computational-social-science.html#proposing-computational-social-science",
+    "title": "Defining Computational Social Science",
+    "section": "Proposing Computational Social Science",
+    "text": "Proposing Computational Social Science\nIn response to these trends, some scientists view computational social science as an emerging field in its own right. D. Lazer et al. (2009) presents a vision for the field as one which should not be captured by large companies or researchers with privileged access to data, but rather one based on open science. In their view, the ubiquity of data collection combined with the computational resource to analyze offers opportunities to enrich social science research; however, this new paradigm brings new methodological challenges in addition to issues related to data access and privacy (D. Lazer et al. 2009, 722).\nThis paper coincided with the “Web 2.0” era of the internet, which relied upon services creating a virtuous cycle by providing data to then be consumed and reused (O’Reilly, Tim 2005). More than a decade later, a retrospective of the extent to which the vision laid out in D. Lazer et al. (2009) has been achieved remains mixed. In a follow up article, D. M. J. Lazer et al. (2020) found that many of the challenges for CSS remained: university incentives and departments poorly reflecting the multidisciplinary nature of the field, data access remains difficult, and the ethical best practices are still being developed. Scientists have used these paradigms to do some very interesting research, which we will discuss throughout this course, yet many of the challenges remain and the full vision remains unrealized in many ways.",
     "crumbs": [
       "Sections",
       "Defining Computational Social Science"
@@ -197,7 +261,51 @@
     "href": "sections/prediction-explanation.html",
     "title": "Prediction and Explanation",
     "section": "",
-    "text": "References\n\nHofman, Jake M., Duncan J. Watts, Susan Athey, Filiz Garip, Thomas L. Griffiths, Jon Kleinberg, Helen Margetts, et al. 2021. “Integrating Explanation and Prediction in Computational Social Science.” Nature 595 (7866): 181–88. https://doi.org/10.1038/s41586-021-03659-0.\n\n\nKing, Gary, Jennifer Pan, and Margaret E. Roberts. 2013. “How Censorship in China Allows Government Criticism but Silences Collective Expression.” American Political Science Review 107 (2). https://doi.org/10.1017/S0003055413000014.\n\n\nWallach, Hanna. 2018. “Computational Social Science \\(\\neq\\) Computer Science + Social Data.” Communications of the ACM 61 (3): 42–44. https://doi.org/10.1145/3132698.",
+    "text": "Why did the geocentric model, which places the Earth in the center of the solor system, last for so long? Part of the answer is that it was a good model. The Ptolemaic system relied upon epicycles to explain the retrograde motion of the planets. The model was able to predict the positions of the planets with great accuracy. It was only when Copernicus proposed a heliocentric model that the geocentric model was replaced. The heliocentric model was not only simpler, but it also provided a better explanation for the retrograde motion of the planets.\nA model can make good predictions while completely missing the underlying mechanisms.\nIn this class, we will focus on three different epistemological outcomes: prediction, explanation, and causality.",
+    "crumbs": [
+      "Sections",
+      "Prediction and Explanation"
+    ]
+  },
+  {
+    "objectID": "sections/prediction-explanation.html#what-is-science",
+    "href": "sections/prediction-explanation.html#what-is-science",
+    "title": "Prediction and Explanation",
+    "section": "What is Science?",
+    "text": "What is Science?\nLazer et al. (2020) defines computational social science as “the development and application of computational methods to complex, typically large-scale, human (sometimes simulated) behavioral data”. I like this definition, but I think it’s incomplete: it doesn’t quite explain the science part of computational social science. Yes, it’s computational; yes, it is applied to social data; but what does it mean to do science in this context? It is helpful to first think about science as a practice before defining a specific approach.\nAfter asking a lot of people’s input, The Science Council (n.d.) defined science as “the pursuit of knowledge and understanding of the natural and social world following a systematic methodology based on evidence”. This definition describes science as empirical, which privileges knowledge created downstream from observation. It is sufficiently vague enough to encompass the many different approaches scientists use in practice while rejecting forms of pseudoscience. What empiricism allows us to do effectively is rule out theories and models of the world when they are falsifiable. There are limits, however, to what we can know via empiricism. As such, the scientific practitioner should carry a significant amount of humility, espessially when working with something as tricky as data generated from social processes. 1",
+    "crumbs": [
+      "Sections",
+      "Prediction and Explanation"
+    ]
+  },
+  {
+    "objectID": "sections/prediction-explanation.html#predictions",
+    "href": "sections/prediction-explanation.html#predictions",
+    "title": "Prediction and Explanation",
+    "section": "Predictions",
+    "text": "Predictions\nModels tend to be most useful when they can successfully predict future events to which they had no previous knowledge. Various approaches to prediction have been developed within the field of machine learning; however, computational social science’s aims are not the same as machine learning. Wallach (2018), a scientist trained in machine learning who has moved over to practicing computational social science, helpfully illustrates some of the differences. She builds on an example from Hopkins and King (2010, 230), who say:\n\nPolicy makers or computer scientists may be interested in finding the needle in the haystack (such as a potential terrorist threat or the right web page to display from a search), but social scientists are more commonly interested in characterizing the haystack.\n\nExplainations are not always better than predictions—sometimes better models make worse predictions—but for the purpose of performing computational social science, we tend to be more interested in models that can help exlpain some underlying social process. And to do this, we tend to need the kind of models that lend themselves toward explaination (Wallach 2018, 43).",
+    "crumbs": [
+      "Sections",
+      "Prediction and Explanation"
+    ]
+  },
+  {
+    "objectID": "sections/prediction-explanation.html#explanations",
+    "href": "sections/prediction-explanation.html#explanations",
+    "title": "Prediction and Explanation",
+    "section": "Explanations",
+    "text": "Explanations\nKing, Pan, and Roberts (2013) present an exemplory paper that does exactly this. Their “haystack” of interest is censorship in China. To understand how this censorship works in practice, they collect data from the internet and infer when censorship has been applied. Doing this at scale allows them to analyze what kind of posts get taken down. Their findings challenge some prior beliefs about this process: negative posts critical of the government were not more likely to be censored, but comments which might lead to more collective action were.\nHere, we can consider a few part of this paper that are worth thinking about when reading computational social science papers:\n\nWhat is the process (the haystack) of interest?\nHow do the researchers map the data to this process?\nWhat does this tell us that we would not already know or could not find out or verify in another way?",
+    "crumbs": [
+      "Sections",
+      "Prediction and Explanation"
+    ]
+  },
+  {
+    "objectID": "sections/prediction-explanation.html#causality",
+    "href": "sections/prediction-explanation.html#causality",
+    "title": "Prediction and Explanation",
+    "section": "Causality",
+    "text": "Causality\nOften, researchers want to explain how one process influences another. In such cases, it helps to think about causality.\nThe human brain is a very strong causal engine: we see causal events everywhere, even in places where no causal relationship exists. When we see someone slip on a wet floor, we might infer that the slipperyness of the floor caused the fall and exercise caution ourselves. But at the same time, we also tend to see causality where it does not exist (e.g. conspiracy theories).\nThis can espessially become a problem because computational social scientists often rely on observational studies, where the causality can be tricky. Sometimes relationships which appear in observational studies are misleading. For instance, observational studies suggested that hormone replacement therapy (HRT) with estrogen plus progestin reduced the risk of heart disease in post-menopausal women; however, a large randomized controlled trial later shows that HRT actually increased the risk of heart disease for post-menopausal women (Rossouw et al. 2002). The women in the observational studies were not representative of the population of women: they were wealthier and had better access to healthcare (Dubey et al. 2004). As such, the obvservational studies missed a key confounder which flipped the results from what the RCT later showed.\nWe will discuss causal inference more in a later section.",
     "crumbs": [
       "Sections",
       "Prediction and Explanation"

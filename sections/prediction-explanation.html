@@ -91,7 +91,7 @@ div.csl-indent {
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -169,42 +169,6 @@ div.csl-indent {
  <span class="menu-text">Ethics and Best Practices</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/simulations-abm.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Simulations and Agent-based Models (ABMs)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/text-as-data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Text as Data</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/experiments-and-causal-inference.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Experiments and Causal Inference</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/network-analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Network Analysis</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/crowds-and-communities.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Crowds and Communities</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/wrap-up.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Wrapping Up</span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -213,10 +177,19 @@ div.csl-indent {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-science" id="toc-what-is-science" class="nav-link active" data-scroll-target="#what-is-science">What is <em>Science</em>?</a></li>
+  <li><a href="#predictions" id="toc-predictions" class="nav-link" data-scroll-target="#predictions">Predictions</a></li>
+  <li><a href="#explanations" id="toc-explanations" class="nav-link" data-scroll-target="#explanations">Explanations</a></li>
+  <li><a href="#causality" id="toc-causality" class="nav-link" data-scroll-target="#causality">Causality</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/defining-computational-social-science.html">Sections</a></li><li class="breadcrumb-item"><a href="../sections/prediction-explanation.html">Prediction and Explanation</a></li></ol></nav>
     <div class="quarto-title">
@@ -254,21 +227,78 @@ div.csl-indent {
   </header>
 
 
+<p>Why did the geocentric model, which places the Earth in the center of the solor system, last for so long? Part of the answer is that it was a good model. The Ptolemaic system relied upon epicycles to explain the retrograde motion of the planets. The model was able to predict the positions of the planets with great accuracy. It was only when Copernicus proposed a heliocentric model that the geocentric model was replaced. The heliocentric model was not only simpler, but it also provided a better explanation for the retrograde motion of the planets.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="../images/1041px-Cassini_apparent.jpg" class="img-fluid"></p>
+</div></div><p>A model can make good predictions while completely missing the underlying mechanisms.</p>
+<p>In this class, we will focus on three different epistemological outcomes: prediction, explanation, and causality.</p>
+<section id="what-is-science" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-science">What is <em>Science</em>?</h2>
+<p><span class="citation" data-cites="lazerComputationalSocialScience2020">Lazer et al. (<a href="#ref-lazerComputationalSocialScience2020" role="doc-biblioref">2020</a>)</span> defines <em>computational social science</em> as “the development and application of computational methods to complex, typically large-scale, human (sometimes simulated) behavioral data”. I like this definition, but I think it’s incomplete: it doesn’t quite explain the science part of computational social science. Yes, it’s computational; yes, it is applied to social data; but what does it mean to do science in this context? It is helpful to first think about <em>science</em> as a practice before defining a specific approach.</p>
+<p>After asking a lot of people’s input, <span class="citation" data-cites="thesciencecouncilOurDefinitionScience">The Science Council (<a href="#ref-thesciencecouncilOurDefinitionScience" role="doc-biblioref">n.d.</a>)</span> defined <em>science</em> as “the pursuit of knowledge and understanding of the natural and social world following a systematic methodology based on evidence”. This definition describes science as empirical, which privileges knowledge created downstream from observation. It is sufficiently vague enough to encompass the many different approaches scientists use in practice while rejecting forms of pseudoscience. What empiricism allows us to do effectively is rule out theories and models of the world when they are <em>falsifiable</em>. There are limits, however, to what we can know via empiricism. As such, the scientific practitioner should carry a significant amount of humility, espessially when working with something as tricky as data generated from social processes. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</section>
+<section id="predictions" class="level2">
+<h2 class="anchored" data-anchor-id="predictions">Predictions</h2>
+<p>Models tend to be most useful when they can successfully predict future events to which they had no previous knowledge. Various approaches to prediction have been developed within the field of machine learning; however, computational social science’s aims are not the same as machine learning. <span class="citation" data-cites="wallachComputationalSocialScience2018a">Wallach (<a href="#ref-wallachComputationalSocialScience2018a" role="doc-biblioref">2018</a>)</span>, a scientist trained in machine learning who has moved over to practicing computational social science, helpfully illustrates some of the differences. She builds on an example from <span class="citation" data-cites="hopkinsMethodAutomatedNonparametric2010">Hopkins and King (<a href="#ref-hopkinsMethodAutomatedNonparametric2010" role="doc-biblioref">2010, 230</a>)</span>, who say:</p>
+<blockquote class="blockquote">
+<p>Policy makers or computer scientists may be interested in finding the needle in the haystack (such as a potential terrorist threat or the right web page to display from a search), but social scientists are more commonly interested in characterizing the haystack.</p>
+</blockquote>
+<p>Explainations are not always better than predictions—sometimes better models make worse predictions—but for the purpose of performing computational social science, we tend to be more interested in models that can help exlpain some underlying social process. And to do this, we tend to need the kind of models that lend themselves toward explaination <span class="citation" data-cites="wallachComputationalSocialScience2018a">(<a href="#ref-wallachComputationalSocialScience2018a" role="doc-biblioref">Wallach 2018, 43</a>)</span>.</p>
+</section>
+<section id="explanations" class="level2">
+<h2 class="anchored" data-anchor-id="explanations">Explanations</h2>
+<p><span class="citation" data-cites="kingHowCensorshipChina2013">King, Pan, and Roberts (<a href="#ref-kingHowCensorshipChina2013" role="doc-biblioref">2013</a>)</span> present an exemplory paper that does exactly this. Their “haystack” of interest is censorship in China. To understand how this censorship works in practice, they collect data from the internet and infer when censorship has been applied. Doing this at scale allows them to analyze what kind of posts get taken down. Their findings challenge some prior beliefs about this process: negative posts critical of the government were not more likely to be censored, but comments which might lead to more collective action were.</p>
+<p>Here, we can consider a few part of this paper that are worth thinking about when reading computational social science papers:</p>
+<ul>
+<li>What is the process (the haystack) of interest?</li>
+<li>How do the researchers map the data to this process?</li>
+<li>What does this tell us that we would not already know or could not find out or verify in another way?</li>
+</ul>
+</section>
+<section id="causality" class="level2">
+<h2 class="anchored" data-anchor-id="causality">Causality</h2>
+<p>Often, researchers want to explain how one process influences another. In such cases, it helps to think about causality.</p>
+<p>The human brain is a very strong causal engine: we see causal events everywhere, even in places where no causal relationship exists. When we see someone slip on a wet floor, we might infer that the slipperyness of the floor caused the fall and exercise caution ourselves. But at the same time, we also tend to see causality where it does not exist (e.g.&nbsp;conspiracy theories).</p>
+<p>This can espessially become a problem because computational social scientists often rely on observational studies, where the causality can be tricky. Sometimes relationships which appear in observational studies are misleading. For instance, observational studies suggested that hormone replacement therapy (HRT) with estrogen plus progestin reduced the risk of heart disease in post-menopausal women; however, a large randomized controlled trial later shows that HRT actually <em>increased</em> the risk of heart disease for post-menopausal women <span class="citation" data-cites="rossouwRisksBenefitsEstrogen2002">(<a href="#ref-rossouwRisksBenefitsEstrogen2002" role="doc-biblioref">Rossouw et al. 2002</a>)</span>. The women in the observational studies were not representative of the population of women: they were wealthier and had better access to healthcare <span class="citation" data-cites="dubeyHormoneReplacementTherapy2004">(<a href="#ref-dubeyHormoneReplacementTherapy2004" role="doc-biblioref">Dubey et al. 2004</a>)</span>. As such, the obvservational studies missed a key confounder which flipped the results from what the RCT later showed.</p>
+<p>We will discuss causal inference more in a <a href="../sections/experiments-and-causal-inference.html">later section</a>.</p>
 
 
+
+</section>
 
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-dubeyHormoneReplacementTherapy2004" class="csl-entry" role="listitem">
+Dubey, Raghvendra K., Bruno Imthurn, Lefteris C. Zacharia, and Edwin K. Jackson. 2004. <span>“Hormone <span>Replacement Therapy</span> and <span>Cardiovascular Disease</span>.”</span> <em>Hypertension</em> 44 (6): 789–95. <a href="https://doi.org/10.1161/01.HYP.0000145988.95551.28">https://doi.org/10.1161/01.HYP.0000145988.95551.28</a>.
+</div>
 <div id="ref-hofmanIntegratingExplanationPrediction2021" class="csl-entry" role="listitem">
 Hofman, Jake M., Duncan J. Watts, Susan Athey, Filiz Garip, Thomas L. Griffiths, Jon Kleinberg, Helen Margetts, et al. 2021. <span>“Integrating Explanation and Prediction in Computational Social Science.”</span> <em>Nature</em> 595 (7866): 181–88. <a href="https://doi.org/10.1038/s41586-021-03659-0">https://doi.org/10.1038/s41586-021-03659-0</a>.
+</div>
+<div id="ref-hopkinsMethodAutomatedNonparametric2010" class="csl-entry" role="listitem">
+Hopkins, Daniel J., and Gary King. 2010. <span>“A <span>Method</span> of <span>Automated Nonparametric Content Analysis</span> for <span>Social Science</span>.”</span> <em>American Journal of Political Science</em> 54 (1): 229–47. <a href="https://doi.org/10.1111/j.1540-5907.2009.00428.x">https://doi.org/10.1111/j.1540-5907.2009.00428.x</a>.
 </div>
 <div id="ref-kingHowCensorshipChina2013" class="csl-entry" role="listitem">
 King, Gary, Jennifer Pan, and Margaret E. Roberts. 2013. <span>“How Censorship in <span>China</span> Allows Government Criticism but Silences Collective Expression.”</span> <em>American Political Science Review</em> 107 (2). <a href="https://doi.org/10.1017/S0003055413000014">https://doi.org/10.1017/S0003055413000014</a>.
 </div>
+<div id="ref-lazerComputationalSocialScience2020" class="csl-entry" role="listitem">
+Lazer, David M. J., Alex Pentland, Duncan J. Watts, Sinan Aral, Susan Athey, Noshir Contractor, Deen Freelon, et al. 2020. <span>“Computational Social Science: <span>Obstacles</span> and Opportunities.”</span> <em>Science</em> 369 (6507): 1060–62. <a href="https://doi.org/10.1126/science.aaz8170">https://doi.org/10.1126/science.aaz8170</a>.
+</div>
+<div id="ref-rossouwRisksBenefitsEstrogen2002" class="csl-entry" role="listitem">
+Rossouw, Jacques E., Garnet L. Anderson, Ross L. Prentice, Andrea Z. LaCroix, Charles Kooperberg, Marcia L. Stefanick, Rebecca D. Jackson, et al. 2002. <span>“Risks and <span>Benefits</span> of <span>Estrogen Plus Progestin</span> in <span>Healthy Postmenopausal Women</span>: <span>Principal Results From</span> the <span>Women</span>’s <span>Health Initiative Randomized Controlled Trial</span>.”</span> <em>JAMA</em> 288 (3): 321–33. <a href="https://doi.org/10.1001/jama.288.3.321">https://doi.org/10.1001/jama.288.3.321</a>.
+</div>
+<div id="ref-thesciencecouncilOurDefinitionScience" class="csl-entry" role="listitem">
+The Science Council. n.d. <span>“Our Definition of Science.”</span> <em>The Science Council</em>. https://sciencecouncil.org/about-science/our-definition-of-science/. Accessed November 22, 2023.
+</div>
 <div id="ref-wallachComputationalSocialScience2018a" class="csl-entry" role="listitem">
 Wallach, Hanna. 2018. <span>“Computational Social Science <span><span class="math inline">\(\neq\)</span></span> Computer Science + Social Data.”</span> <em>Communications of the ACM</em> 61 (3): 42–44. <a href="https://doi.org/10.1145/3132698">https://doi.org/10.1145/3132698</a>.
 </div>
-</div></section></div></main> <!-- /main -->
+</div></section><aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>For more on this subject, I recommend reading Karl Popper and Thomas Kuhn.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -77,7 +97,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/defining-computational-social-science.html">Sections</a></li><li class="breadcrumb-item"><a href="../sections/crowds-and-communities.html">Crowds and Communities</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Computational Social Science Syllabus
+      </li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -146,42 +168,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Ethics and Best Practices</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/simulations-abm.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Simulations and Agent-based Models (ABMs)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/text-as-data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Text as Data</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/experiments-and-causal-inference.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Experiments and Causal Inference</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/network-analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Network Analysis</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/crowds-and-communities.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Crowds and Communities</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../sections/wrap-up.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Wrapping Up</span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -195,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/defining-computational-social-science.html">Sections</a></li><li class="breadcrumb-item"><a href="../sections/crowds-and-communities.html">Crowds and Communities</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
     <div class="quarto-title">
         <h1 class="title">Crowds and Communities</h1>
                 </div>
@@ -211,6 +197,15 @@ ul.task-list li input[type="checkbox"] {
       
 
     <div class="grid">
+            <div class="readings g-col-8">
+        <h3 class="anchored">Readings</h3>
+        <div>
+        <div><ul>
+<li><span class="citation" data-cites="shawLaboratoriesOligarchyHow2014">Shaw and Hill (<a href="#ref-shawLaboratoriesOligarchyHow2014" role="doc-biblioref">2014</a>)</span></li>
+<li><span class="citation" data-cites="muchnikSocialInfluenceBias2013">Muchnik, Aral, and Taylor (<a href="#ref-muchnikSocialInfluenceBias2013" role="doc-biblioref">2013</a>)</span></li>
+</ul></div>
+        </div>
+      </div>
       
           </div>
   </header>
@@ -219,7 +214,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-muchnikSocialInfluenceBias2013" class="csl-entry" role="listitem">
+Muchnik, Lev, Sinan Aral, and Sean J. Taylor. 2013. <span>“Social <span>Influence Bias</span>: <span>A Randomized Experiment</span>.”</span> <em>Science</em> 341 (6146): 647–51. <a href="https://doi.org/10.1126/science.1240466">https://doi.org/10.1126/science.1240466</a>.
+</div>
+<div id="ref-shawLaboratoriesOligarchyHow2014" class="csl-entry" role="listitem">
+Shaw, Aaron, and Benjamin Mako Hill. 2014. <span>“Laboratories of Oligarchy? <span>How</span> the Iron Law Extends to Peer Production.”</span> <em>Journal of Communication</em> 64 (2): 215–38. <a href="https://doi.org/10.1111/jcom.12082">https://doi.org/10.1111/jcom.12082</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
