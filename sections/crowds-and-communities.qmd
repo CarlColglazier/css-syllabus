@@ -1,4 +1,7 @@
 ---
 title: Crowds and Communities
 order: 8
+readings:
+- shawLaboratoriesOligarchyHow2014
+- muchnikSocialInfluenceBias2013
 ---

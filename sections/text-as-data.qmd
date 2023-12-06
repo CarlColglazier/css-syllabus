@@ -1,4 +1,9 @@
 ---
 title: Text as Data
 order: 5
+readings:
+- dimaggioAdaptingComputationalText2015
+- jensenPoliticalPolarizationDynamics2012
+#- key: michelQuantitativeAnalysisCulture2011
+#  url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3279742/
 ---

@@ -1,4 +1,8 @@
 ---
 title: Network Analysis
 order: 7
+readings:
+- doddsExperimentalStudySearch2003
+- barberaCriticalPeripheryGrowth2015
+- bailExposureOpposingViews2018
 ---

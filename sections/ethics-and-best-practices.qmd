@@ -1,16 +1,47 @@
 ---
 title: Ethics and Best Practices
 description: Challenges for computational social science in practice
-order: 3
+order: 4
 readings:
-- key: rocherEstimatingSuccessReidentifications2019
-  url: https://doi.org/10.1038/s41467-019-10933-3
+- key: charlottejeeYouReVery2019
+  url: https://www.technologyreview.com/2019/07/23/134090/youre-very-easy-to-track-down-even-when-your-data-has-been-anonymized/
 - key: zookTenSimpleRules2017
   url: https://doi.org/10.1371/journal.pcbi.1005399
-- lazerParableGoogleFlu2014
+- key: lazerParableGoogleFlu2014
+  url: https://doi.org/10.1126/science.1248506
 ---
 
-In 2006, AOL Research released a dataset with 20 million searches from over 600 thousand accounts. It seemed like a good idea at the time: the data had been deanonymized after all. 
+## Can data be deanonymized?
+
+In 2006, AOL Research released a dataset with 20 million searches from over 600 thousand accounts. It seemed like a good idea at the time: the data had been deanonymized after all! The problem is that deanonymization does not quite work like that at scale. If you look at your search history, you probably have a lot of stuff that uniquely identifies you: say, directions to your home address or other things unique to you. And with data at this scale, it's easy to combine these data with other data to further find out more information about individual people. For example, the _New York Times_ identified many people in the dataset by combining their search history with data from the phone book (a record of names and phone numbers which was common at the time) [@barbaroFaceExposedAOL2006].
+
+In fact, it is possible to deanonymize many people using simple demographic data. @rocherEstimatingSuccessReidentifications2019 created a model which showed that "99.98% of Americans would be correctly re-identified in any dataset using 15 demographic attributes". You can try to see the chance that a dataset with has an entry with your zip code, birthday, and gender is about you in the embed below (no data is shared with any server on this website).
+
+```{=html}
+<iframe width="800" height="500" src="https://cpg.doc.ic.ac.uk/individual-risk/"></iframe>
+```
+
+## Common Ethical Principles
+
+Ethical issues in research are not a new problem. In response to the Tuskegee Syphilis Study[^tss], @BelmontReport1979 created a set of ethical principles and guidelines to protect human subjects:
+
+- Respect for persons
+- Beneficence
+- Justice
+
+These principles remain influential in many fields. As it relates to Information and Communications Technologies (ICT), @kenneallyMenloReportEthical2012 added an additional principle: respect for law and public interest.
+
+[^tss]: The Tuskegee Syphilis Study, conducted from 1932 to 1972 by the U.S. Public Health Service, involved 600 Black men, 399 with syphilis and 201 without. Participants were misled about the study's purpose, which was to observe the natural progression of untreated syphilis. Crucially, they were not informed of their diagnosis nor provided effective treatment even after penicillin became available in the 1940s. The study's ethical violations include lack of informed consent, exploitation of a vulnerable population, and withholding of standard medical care, which significantly undermined public trust in medical research.
+
+
+## Beware of Pitfalls
+
+Most pracitioners of computational social science have good intentions at heart; however, it is important to be cautious if not defensive about potential negative effects of research. @lazerParableGoogleFlu2014 illustrates an example of the pitfall of "big data hubris", where one might be tempted to ignore foundational issues just become they have access to a lot of data. Google Flu Trends (GFT) tried to predict flu outbreaks based on search data. The idea was that an increase in searches related to flu symptoms would indicate an upcoming flu outbreak. While GFT was initially seen as rather successful, it consistently overestimated the prevalence of the flu. In fact, just using data from three weeks ago turned out to be a better predictor than GFT!
+
+@lazerParableGoogleFlu2014 suggest a few things that could have gone wrong here. First, Google is not a static entity. The search algorthm is constantly changing. They suggest this highlights the needs for greater transparency and replicability in research. Further, they suggest there was little value in improving over the existing, simpler lagged model from the CDC. Just because you can does not always mean you should. Finally, they caution that just because a model has more data behind it, that does not guarentee it is better.
+
+## Best Practices
+
 
 
 <!--

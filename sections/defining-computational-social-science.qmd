@@ -17,6 +17,8 @@ format:
   html: default
 ---
 
+## Background
+
 Advances in computing have facilitated two trends:
 
 1.  Computers are getting smaller and cheaper.
@@ -32,8 +34,9 @@ The effects of these trends are visible on the social sciences. For example, adv
 
 At the same time, the ubiquity of computation continues to produce rich datasets with great potential for social science analysis [@kingEnsuringDataRichFuture2011]. Further, the new communication methods have become areas of study in and of themselves [@boydSocialNetworkSites2007].
 
+## Proposing Computational Social Science
+
 In response to these trends, some scientists view *computational social science* as an emerging field in its own right. @lazerComputationalSocialScience2009 presents a vision for the field as one which should not be captured by large companies or researchers with privileged access to data, but rather one based on open science. In their view, the ubiquity of data collection combined with the computational resource to analyze offers opportunities to enrich social science research; however, this new paradigm brings new methodological challenges in addition to issues related to data access and privacy [@lazerComputationalSocialScience2009 722].
 
-This paper coincided with the "Web 2.0" era of the internet, which relied upon services creating a virtuous cycle by providing data to then be consumed and reused [@oreillytimWhatWeb2005]. More than a decade later, a retrospective of the extent to which the vision laid out in @lazerComputationalSocialScience2009 has been achieved remains mixed. Scientists have used these paradigms to do some very interesting research, which we will discuss throughout this course, yet many of the challenges remain and the full vision remains unrealized in many ways.
-
-In a follow up article, @lazerComputationalSocialScience2020
+This paper coincided with the "Web 2.0" era of the internet, which relied upon services creating a virtuous cycle by providing data to then be consumed and reused [@oreillytimWhatWeb2005]. More than a decade later, a retrospective of the extent to which the vision laid out in @lazerComputationalSocialScience2009 has been achieved remains mixed. 
+In a follow up article, @lazerComputationalSocialScience2020 found that many of the challenges for CSS remained: university incentives and departments poorly reflecting the multidisciplinary nature of the field, data access remains difficult, and the ethical best practices are still being developed. Scientists have used these paradigms to do some very interesting research, which we will discuss throughout this course, yet many of the challenges remain and the full vision remains unrealized in many ways.

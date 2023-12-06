@@ -1,9 +1,24 @@
 ---
 title: Simulations and Agent-based Models (ABMs)
-order: 4
+order: 3
 readings:
 - key: conteAgentbasedModelingComputational2014
   url: https://doi.org/10.3389/fpsyg.2014.00668
-- key: janssenEmpiricallyBasedAgentbased2006
-  url: https://www.jstor.org/stable/26265994
+- smirnovToxicCommentsAre2023
+#- key: benensonPARKAGENTAgentbasedModel2008
+#  url: https://doi.org/10.1016/j.compenvurbsys.2008.09.011
+#- key: janssenEmpiricallyBasedAgentbased2006
+#  url: https://www.jstor.org/stable/26265994
+
 ---
+
+Previously, we introduced prediction, explaination, and causality as important parts of the scientific process. Here, we introduce yet another one: simulation.
+
+Why might we care about simulating processes?
+
+Writing outline:
+
+- role of theory
+- from the ground up
+- areas where getting observational data may be impractical or unethical
+- are we just making stuff up? how can we validate?

@@ -14,7 +14,11 @@ website:
       - syllabus.qmd
     - section: "Sections"
       text: "Sections"
-      contents: sections/*
+      #contents: sections/*
+      contents:
+      - sections/defining-computational-social-science.qmd
+      - sections/prediction-explanation.qmd
+      - sections/ethics-and-best-practices.qmd
 format:
   html:
     toc: true

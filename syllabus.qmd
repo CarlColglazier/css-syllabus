@@ -13,15 +13,17 @@ sections: "sections/*.qmd"
 format:
   pdf: default
   html: default
+execute:
+  cache: refresh
 ---
 
 ### Audience
 
-This course is catered to early graduate students or advanced undergraduates in the social sciences who have some familiarity with R and are interested in learning more about computational social science. The syllabus is designed to be taught over the course of a quarter (ten weeks). As the majority of students will work in jobs outside of academia, a number of examples are drawn from industry. 
+This course is catered to early advanced undergraduates in the social sciences who have some familiarity with computer programming.
 
 ### Format
 
-The course is designed to be taught in a flipped classroom format, with students reading the assigned readings before class and then discussing the readings or working on exercises in class.
+The course is designed to be taught in a flipped classroom format, with students reading the assigned readings before class and then discussing the readings or working on exercises in class. The syllabus is designed to be taught over the course of a quarter (ten weeks).
 
 ### Learning Objectives
 
@@ -29,12 +31,14 @@ By the end of the course, students should be able to:
 
 - Define computational social science as a field and explain how it differs from other fields
 - Explain the strengths and weaknesses of different computational social science methods
-- Apply computational social science methods to answer research questions
+- Understand how to apply computational social science methods to answer research questions
 - Evaluate computational social science research
 
 ::: {.content-visible unless-profile="book"}
 
-# Readings 
+# Readings
+
+All selected readings are open access.
 
 ```{r, echo=FALSE, output=FALSE}
 library(rmarkdown)
