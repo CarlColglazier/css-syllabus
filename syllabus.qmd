@@ -1,5 +1,6 @@
 ---
 title: Syllabus
+subtitle: "Introduction to Computational Social Science: Theory and Practice"
 #author: Carl Colglazier
 csl: assets/chicago-syllabus.csl
 suppress-bibliography: true
@@ -17,9 +18,13 @@ execute:
   cache: refresh
 ---
 
+## Course description
+
+This course is an introduction to the theory and practice of computational social science (CSS), an interdisciplinary field at the intersection of computer science, statistics, and the social sciences. CSS researchers apply computational methods to study social phenomena. The course will cover a range of topics--including text analysis, simulations, and network analysis--with a continuous focus on the epistemological approach of the methods and the processeses behind the data.
+
 ### Audience
 
-This course is catered to early advanced undergraduates in the social sciences who have some familiarity with computer programming.
+This course is catered to advanced undergraduates in the social sciences who have some familiarity with computer programming. The exercises and activities may require students to use programming languages unfamiliar to them, but the focus of the course remains conceptual rather than on the technical details of the methods.
 
 ### Format
 
@@ -29,12 +34,36 @@ The course is designed to be taught in a flipped classroom format, with students
 
 By the end of the course, students should be able to:
 
-- Define computational social science as a field and explain how it differs from other fields
-- Explain the strengths and weaknesses of different computational social science methods
-- Understand how to apply computational social science methods to answer research questions
-- Evaluate computational social science research
+-   Define computational social science as a field and explain how it differs from other fields
+-   Explain the strengths and weaknesses of different computational social science methods
+-   Understand how to apply computational social science methods to answer research questions
+-   Evaluate computational social science research
 
-::: {.content-visible unless-profile="book"}
+# Activities
+
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Week   | Topic                                     | Description                                                                                                                                                                                                                                                                                      |
++========+===========================================+==================================================================================================================================================================================================================================================================================================+
+| 1\     | Introduction                              | **Finding CSS Research**. Based on the descriptions we have read, find a peer-reviewed paper you think fits the description of computational social science and discuss why.                                                                                                                     |
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2      | Prediction and Explanation                | **Same dataset, two stories.** In this lab, we will use the same data both to try to explain and predict and discuss the limitations and advantages of each approach.                                                                                                                            |
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3      | Simulations and Agent-based Models (ABMs) | **Agent-based models in NetLogo.** We will first step through the basics of creating agent-based models. Then, you will be tasked with exploring the examples on NetLogo Web for one which demonstrates a social process. Discuss why modeling may or may not be a good approach to this domain. |
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4      | Ethics and Best Practices                 | **Deanonymization activity.** Find your ["individual risk"](https://cpg.doc.ic.ac.uk/individual-risk/) from Rocher et. al (2019).                                                                                                                                                                |
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5      | Text as Data                              | **NLP project.** Replication of the Mosteller and Wallace (1963) identification of Federalist Papers authors using latent text data.                                                                                                                                                             |
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6      | Experiments and Causal Inference          | **Design a Virtual Experiment**. Students design a hypothetical experiment to answer a social science question, addressing issues like sample selection, control groups, and causal inference. They then present and critique each other's designs.                                              |
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 7      | Network Analysis                          | **Lab.** Introduction to working with network data with classic data sets such as Zachary's karate club and the florentine families dataset (Padget & Ansell, 1993).                                                                                                                             |
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 8      | Crowds and Communities                    | **Community Analysis Project**. Select an online community and discuss how one might use computational tools to analyze its dynamics, norms, and behavior. Then, we will work together using data derived from Pushshift on Reddit.                                                              |
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 9      | Wrapping Up                               | Student Presentations                                                                                                                                                                                                                                                                            |
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 10     |                                           | Student Presentations                                                                                                                                                                                                                                                                            |
++--------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 # Readings
 
@@ -61,13 +90,18 @@ format_section <- function(file) {
   fm <- yaml_front_matter(file)
   title <- glue("## {fm$title}\n\n")
   description <- glue("{fm$description}\n\n")
+  full_description <- ""
+  # check if has key "full-description"
+  if (length(fm$`full-description`) > 0) {
+    full_description <- glue("{fm$`full-description`}\n\n")
+  }
   readings <- ""
   if (length(fm$readings) > 0) {
     # get all "key" in readings
     keys <- lapply(fm$readings, reading_key)
     readings <- paste0("+ [@", paste(keys, collapse = "]\n+ [@"), "]\n")
   }
-  st <- paste(title, description, readings, sep = "\n", collapse = '')
+  st <- paste(title, description, full_description, readings, sep = "\n", collapse = '')
   return(st)
 }
 
@@ -82,5 +116,3 @@ sections <- lapply(names(sort(sapply(listing_files, get_order))), format_section
 x <- paste(sections, sep="\n", collapse = NULL)
 cat(x, sep="\n")
 ```
-
-:::

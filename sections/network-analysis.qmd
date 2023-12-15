@@ -1,8 +1,19 @@
 ---
 title: Network Analysis
 order: 7
+full-description: >-
+  Much social data is produced in the context of networks of relationships. This section introduces the basic concepts of network analysis, and provides a few examples of how it is used in the social sciences.
 readings:
-- doddsExperimentalStudySearch2003
-- barberaCriticalPeripheryGrowth2015
-- bailExposureOpposingViews2018
+- key: doddsExperimentalStudySearch2003
+  url: https://doi.org/10.1126/science.1081058
+  description: >-
+    Uses email to replicate the "small-world" experiment of Milgram (1967).
+- key: barberaCriticalPeripheryGrowth2015
+  url: https://doi.org/10.1371/journal.pone.0143611
+  description: >-
+    Uses Twitter data to study the influence of "peripheral" participants on the spread of social movement, finding that despite being less active, such users can be just as important as "core" users.
+- key: bailExposureOpposingViews2018
+  url: https://doi.org/10.1073/pnas.1804840115
+  description: >-
+    Do people tend to become less polarized when exposed to opposing views? This study paid active Twitter users to follow a bot which reposted opposing viewpoints. It finds that exposure to opposing views does not reduce polarization, and in fact can increase it.
 ---

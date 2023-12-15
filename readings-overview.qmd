@@ -1,0 +1,60 @@
+---
+title: Readings Overview
+toc: true
+execute:
+  cache: refresh
+---
+
+```{r, echo=FALSE, output=FALSE}
+library(rmarkdown)
+library(here)
+library(glue)
+
+listing_location <- yaml_front_matter(here("syllabus.qmd"))$sections
+
+listing_files <- Sys.glob(here(listing_location))
+
+reading_text <- function(x) {
+  if (typeof(x) == "character") {
+    return(glue("+ @{x}\n"))
+  } else {
+    text <- ""
+    text <- paste(text, glue("+ @{x$key}"), sep='')
+    if (!is.null(x$description)) {
+      text <- paste(text, glue(": {x$description}"), sep='')
+    }
+    if (!is.null(x$url)) {
+      text <- paste(text, glue(" [[link]]({x$url})"), sep='')
+    }
+    return(text)
+  }
+}
+
+format_section <- function(file) {
+  fm <- yaml_front_matter(file)
+  title <- glue("\n\n## {fm$title}\n\n")
+  description <- glue("{fm$description}\n\n")
+  full_description <- ""
+  # check if has key "full-description"
+  if (length(fm$`full-description`) > 0) {
+    full_description <- glue("{fm$`full-description`}\n\n")
+  }
+  readings <- ""
+  if (length(fm$readings) > 0) {
+    # get all "key" in readings
+    readings <- paste(lapply(fm$readings, reading_text), collapse='\n')
+  }
+  st <- paste(title, description, full_description, readings, sep = "\n", collapse = '')
+  return(st)
+}
+
+get_order <- function(file) {
+  fm <- yaml_front_matter(file)
+  return(fm$order)
+}
+```
+
+```{r, echo=FALSE, output='asis'}
+sections <- lapply(names(sort(sapply(listing_files, get_order))), format_section)
+cat(paste(sections, sep="\n\n", collapse = '\n\n'))
+```

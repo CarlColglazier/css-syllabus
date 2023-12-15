@@ -1,14 +1,18 @@
 ---
 title: Simulations and Agent-based Models (ABMs)
 order: 3
+description: How can we use computer simulations to study social phenomena from the "buttom up"?
+full-description: >-
+  We discuss the role of simulations and when they may be useful in the development and explanation of theories or in forecasting.
 readings:
 - key: conteAgentbasedModelingComputational2014
   url: https://doi.org/10.3389/fpsyg.2014.00668
-- smirnovToxicCommentsAre2023
-#- key: benensonPARKAGENTAgentbasedModel2008
-#  url: https://doi.org/10.1016/j.compenvurbsys.2008.09.011
-#- key: janssenEmpiricallyBasedAgentbased2006
-#  url: https://www.jstor.org/stable/26265994
+  description: >-
+    Proposes an interdisciplinary approach that combines ABM and CSS for advancing the computational study of social phenomena.
+- key: smirnovToxicCommentsAre2023
+  url: https://doi.org/10.1093/pnasnexus/pgad385
+  description: >-
+    A paper which integrates computational analysis with an agent-based  model to demonstrate the potential impacts of its findings.
 
 ---
 

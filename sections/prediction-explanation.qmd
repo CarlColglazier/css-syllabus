@@ -1,17 +1,25 @@
 ---
 title: Prediction and Explanation
-description: Computational social science's epistemological perspectives
+description: On computational social science's epistemological perspectives.
+full-description: >-
+  A continuous tension we see is how different stakeholders view the value of data. Some may be interested in models which give us insight into future events, while other may be interested in models which help us understand the underlying mechanisms of a process. In what ways do prediction and explaination differ? In what cases might we wish to use each approach?
 order: 2
 readings:
 - key: wallachComputationalSocialScience2018a
   url: https://doi.org/10.1145/3132698
-- key: kingHowCensorshipChina2013
-  url: https://doi.org/10.1017/S0003055413000014
+  description: >-
+    Perspective on the differences between machine learning and computational social science and why it matters.
+- key: salganikObservingBehavior2018
+  url: https://www.bitbybitbook.com/en/1st-ed/observing-behavior/
+  description: >-
+    Discusses characteristics of big data and three "research strategies" for working with it: observations, forecasting, and quasi-experiments.
 #- lazerComputationalSocialScience2020
 #- lazerParableGoogleFlu2014
 #- salganikObservingBehavior2018
 - key: hofmanIntegratingExplanationPrediction2021
   url: https://doi.org/10.1038/s41586-021-03659-0
+  description: >-
+    Perspective on the differences between explanation and prediction and possible ways to integreate the two approaches in computational social science.
 ---
 
 Why did the geocentric model, which places the Earth in the center of the solor system, last for so long? Part of the answer is that it was a good model. The Ptolemaic system relied upon epicycles to explain the retrograde motion of the planets. The model was able to predict the positions of the planets with great accuracy. It was only when Copernicus proposed a heliocentric model that the geocentric model was replaced. The heliocentric model was not only simpler, but it also provided a better explanation for the retrograde motion of the planets.

@@ -1,14 +1,27 @@
 ---
 title: Defining Computational Social Science
-description: What exactly is "computational social science"?
+description: >-
+  What exactly is "computational social science"?
+full-description: >-
+  We define computational social science as a field of study which uses computational methods to study social phenomena. We also discuss the history of the field and some of the challenges it faces including access to data and institutional structures.
 order: 1
 readings:
 - key: lazerComputationalSocialScience2009
   url: https://doi.org/10.1126/science.1167742
-- key: lazerComputationalSocialScience2020
-  url: https://doi.org/10.1126/science.aaz8170
+  description: >-
+    Authored by several prominent names in the social sciences, this paper presents a vision for computational social science as a field of study and some of the challenges facing the field.
+#- key: lazerComputationalSocialScience2020
+#  url: https://doi.org/10.1126/science.aaz8170
+#  description: >-
+#    Published a decade later, this paper discusses the progress made in the field and the challenges which remain.
 - key: salganikIntroduction2018
   url: https://www.bitbybitbook.com/en/1st-ed/introduction/
+  description: >-
+    Introduction from probably the best textbook on computational social science out there.
+- key: kingHowCensorshipChina2013
+  url: https://doi.org/10.1017/S0003055413000014
+  description: >-
+    Example of an excellent computational social science paper that uses data to explain a social process.
 slides: 01-defining-computational-social-science-slides
 link-citations: true
 reference-location: margin

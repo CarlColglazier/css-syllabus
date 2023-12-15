@@ -1,12 +1,30 @@
 ---
 title: Experiments and Causal Inference
 order: 6
+description: >-
+  How can we answer cause-and-effect questions using computational social science?
+full-description: >-
+  Experiments allow the researcher to manipulate independent variables and observe the effect on dependent variables. However, experiments are not always possible. Causal inference provides a framework to answer causal questions even when experiments are not possible.
 readings:
-  - grimmerWeAreAll2015
-  - chandrasekharanYouCanStay2017
+  - key: salganikRunningExperiments2018
+    url: https://www.bitbybitbook.com/en/1st-ed/running-experiments/
+    description: >-
+      How can we answer cause-and-effect questions using computational social science? Salganik discusses ways that digital media can facilitate experiments and how causal experiment design can be used on existing data.
+  - key: grimmerWeAreAll2015
+    url: https://doi.org/10.1017/S1049096514001784
+    description: >-
+      Grimmer argues that approaches from both computer science and the social sciences are needed to use big data toward solving large problems. In particular, this paper emphasizes that description, while underappreciated, is still an important part of the scientific process.
+  - key: chandrasekharanYouCanStay2017
+    url: https://doi.org/10.1145/3134666
+    description: >-
+      Applies matching to a dataset of Reddit activity to evaluate the effectiveness of Reddit's quarantine policy.
 ---
 
-You have have heard the phrase "correlation does not imply causation". This is usually used to say that just because two variables are associated with each other, that does not mean one causes each other. [This website](https://www.tylervigen.com/spurious-correlations) can generate spurious correlations for you.
+You have have heard the phrase "correlation does not imply causation". This is usually used to say that just because two variables are associated with each other, that does not mean one causes each other. [This website](https://www.tylervigen.com/spurious-correlations) can generate spurious correlations for you. For example, the number of people who drowned by falling into a pool correlates with the number of films Nicolas Cage appeared in. Does this mean that Nicolas Cage causes people to drown? Probably not.
+
+One problem which comes up a lot is that given enough data, you will find a lot of correlations. And many of those correlations will be meaningless. This can relate to a practice known as HARKing (hypothesizing after the results are known), where scientists get a large dataset, create findings based on that dataset, and then draw conclusions only after seeing what the data already says.
+
+On the other hand, we often want to come away with causal conclusions from research. We want to know, for instance, if a particular approach to content moderation is effective, as was the case in @chandrasekharanYouCanStay2017's study of Reddit's quarantine policy.
 
 So if correlation does not imply causation, how do we establish causation? Generally, we use experiments. For example, in medicine, we might test the effectiveness of a new drug by running a randomized control trial (RCT). People are split into a _treatment_ group, where they receive the drug, and a control group, where they do not receive the drug. Assuming that the group was randomized correctly, the we can attribute the difference in outcomes between the two groups to the drug.
 
@@ -14,6 +32,9 @@ Ideally we would be able to have experiments for everything, but this is not alw
 
 The _fundamental problem of causal inference_ is that we cannot observe both a treated unit and its untreated counterfactual at the same time. The goal of causal inference approaches to provide a framework to answer causal questions regardless.
 
+<!--
+
 Some popular techniques include:
 
 + Matching: find other units with similar characteristics.
+-->

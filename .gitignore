@@ -5,3 +5,4 @@ _site/
 .DS_Store
 /.quarto/
 /syllabus_cache/
+*_cache/

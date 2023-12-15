@@ -1,9 +1,18 @@
 ---
 title: Text as Data
 order: 5
+description: Methods for working with text data.
+full-description: >-
+  A lot of social data is encoded within unstructured text. This module is more practical than theoretical and focuses on strategies to extract data from text using natural language processing and modern, vector-based approaches.
 readings:
-- dimaggioAdaptingComputationalText2015
-- jensenPoliticalPolarizationDynamics2012
+- key: dimaggioAdaptingComputationalText2015
+  url: https://doi.org/10.1177/2053951715602908
+  description: >-
+    Discusses the differences in how social scientists and computer scientists approach textual data and offers suggestions that may help bridge the gap.
+- key: jensenPoliticalPolarizationDynamics2012
+  url: https://www.jstor.org/stable/41825364
+  description: >-
+    Applies textual anlysis to the _Congressional Record_ and compares it to Google Books to deterine the relationship of polarization with "elite discourse".
 #- key: michelQuantitativeAnalysisCulture2011
 #  url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3279742/
 ---

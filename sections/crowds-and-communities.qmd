@@ -1,7 +1,19 @@
 ---
 title: Crowds and Communities
+full-description: >-
+  A lot of social data is not produced in isolation, but rather in the context of communities with their own norms and practices. We discuss how to think about communities and crowds, and how to study them.
 order: 8
 readings:
-- shawLaboratoriesOligarchyHow2014
-- muchnikSocialInfluenceBias2013
+- key: salganikCreatingMassCollaboration2018
+  url: https://www.bitbybitbook.com/en/1st-ed/creating-mass-collaboration/
+  description: >-
+    Categorizes three types of collaborative processes: human computation, open call, and distributed data collection.
+- key: shawLaboratoriesOligarchyHow2014
+  url: https://doi.org/10.1111/jcom.12082
+  description: >-
+    A study on participation inequalities in online peer-production communities applying a political theory from 1911.
+- key: muchnikSocialInfluenceBias2013
+  url: https://doi.org/10.1126/science.1240466
+  description: >-
+    A sort of social process audit on a news aggregation website, finding an asymmetric effect where users self-correct negative scores, but do not do the same on positive scores.
 ---

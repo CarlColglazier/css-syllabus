@@ -5,20 +5,22 @@ project:
   - images/*
 bibliography: references.bib
 website:
-  title: "Computational Social Science Syllabus"
+  title: "Introduction to Computational Social Science"
   sidebar:
     pinned: true
     contents:
     - section: "Information"
       contents:
       - syllabus.qmd
+      - readings-overview.qmd
     - section: "Sections"
-      text: "Sections"
+      text: "Framing"
       #contents: sections/*
       contents:
       - sections/defining-computational-social-science.qmd
       - sections/prediction-explanation.qmd
       - sections/ethics-and-best-practices.qmd
+      - sections/experiments-and-causal-inference.qmd
 format:
   html:
     toc: true

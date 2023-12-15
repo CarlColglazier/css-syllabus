@@ -1,12 +1,15 @@
 ---
 title: Wrapping Up
+description: >-
+  We synthesize the main themes of the course and discuss the future of computational communication research.
 order: 9
 readings:
 - key: vanatteveldtWhenCommunicationMeets2018
   url: https://doi.org/10.1080/19312458.2018.1458084
+  description: >-
+    An overview of the ways that computational techniques are changing communication research, with an emphasis on many of the themes and challenges discussed throughout this course.
 - key: olteanuSocialDataBiases2019
   url: https://doi.org/10.3389/fdata.2019.00013
-#  - key: atheyPredictionUsingBig2017
-#    url: https://doi.org/10.1126/science.aal4321
-
+  description: >-
+    An overview of many of the biases that can be introduced by social data.
 ---

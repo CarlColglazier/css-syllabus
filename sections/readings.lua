@@ -10,9 +10,9 @@ function Meta (meta)
       end
       key = pandoc.utils.stringify(key)
       local out = key
-      if description then
-        out = out .. ": " .. pandoc.utils.stringify(description)
-      end
+      --if description then
+      --  out = out .. ": " .. pandoc.utils.stringify(description)
+      --end
       if url then
         out = out .. " [[link]](" .. pandoc.utils.stringify(url) .. ")"
       end
