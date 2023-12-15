@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Challenges for computational social science in practice">
+<meta name="description" content="What are the pitfalls and potential ethical issues in computational social science research?">
 
-<title>Computational Social Science Syllabus - Ethics and Best Practices</title>
+<title>Introduction to Computational Social Science - Ethics and Best Practices</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -113,7 +113,7 @@ div.csl-indent {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../">Computational Social Science Syllabus</a> 
+      <a href="../">Introduction to Computational Social Science</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -136,6 +136,12 @@ div.csl-indent {
   <div class="sidebar-item-container"> 
   <a href="../syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../readings-overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Readings Overview</span></a>
   </div>
 </li>
       </ul>
@@ -167,6 +173,12 @@ div.csl-indent {
  <span class="menu-text">Ethics and Best Practices</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sections/experiments-and-causal-inference.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Experiments and Causal Inference</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -196,7 +208,7 @@ div.csl-indent {
     
         <div>
       <div class="description">
-        Challenges for computational social science in practice
+        What are the pitfalls and potential ethical issues in computational social science research?
       </div>
     </div>
         
@@ -214,6 +226,7 @@ div.csl-indent {
         <h3 class="anchored">Readings</h3>
         <div>
         <div><ul>
+<li><span class="citation" data-cites="salganikEthics2018"><span>“Ethics”</span> (<a href="#ref-salganikEthics2018" role="doc-biblioref">2018</a>)</span> <a href="https://www.bitbybitbook.com/en/1st-ed/ethics/">[link]</a></li>
 <li><span class="citation" data-cites="charlottejeeYouReVery2019">Charlotte Jee (<a href="#ref-charlottejeeYouReVery2019" role="doc-biblioref">2019</a>)</span> <a href="https://www.technologyreview.com/2019/07/23/134090/youre-very-easy-to-track-down-even-when-your-data-has-been-anonymized/">[link]</a></li>
 <li><span class="citation" data-cites="zookTenSimpleRules2017">Zook et al. (<a href="#ref-zookTenSimpleRules2017" role="doc-biblioref">2017</a>)</span> <a href="https://doi.org/10.1371/journal.pcbi.1005399">[link]</a></li>
 <li><span class="citation" data-cites="lazerParableGoogleFlu2014">Lazer et al. (<a href="#ref-lazerParableGoogleFlu2014" role="doc-biblioref">2014</a>)</span> <a href="https://doi.org/10.1126/science.1248506">[link]</a></li>
@@ -243,8 +256,8 @@ div.csl-indent {
 </section>
 <section id="beware-of-pitfalls" class="level2">
 <h2 class="anchored" data-anchor-id="beware-of-pitfalls">Beware of Pitfalls</h2>
-<p>Most pracitioners of computational social science have good intentions at heart; however, it is important to be cautious if not defensive about potential negative effects of research. <span class="citation" data-cites="lazerParableGoogleFlu2014">Lazer et al. (<a href="#ref-lazerParableGoogleFlu2014" role="doc-biblioref">2014</a>)</span> illustrates an example of the pitfall of “big data hubris”, where one might be tempted to ignore foundational issues just become they have access to a lot of data. Google Flu Trends (GFT) tried to predict flu outbreaks based on search data. The idea was that an increase in searches related to flu symptoms would indicate an upcoming flu outbreak. While GFT was initially seen as rather successful, it consistently overestimated the prevalence of the flu. In fact, just using data from three weeks ago turned out to be a better predictor than GFT!</p>
-<p><span class="citation" data-cites="lazerParableGoogleFlu2014">Lazer et al. (<a href="#ref-lazerParableGoogleFlu2014" role="doc-biblioref">2014</a>)</span> suggest a few things that could have gone wrong here. First, Google is not a static entity. The search algorthm is constantly changing. They suggest this highlights the needs for greater transparency and replicability in research. Further, they suggest there was little value in improving over the existing, simpler lagged model from the CDC. Just because you can does not always mean you should. Finally, they caution that just because a model has more data behind it, that does not guarentee it is better.</p>
+<p>Most practitioners of computational social science have good intentions at heart; however, it is important to be cautious if not defensive about potential negative effects of research. <span class="citation" data-cites="lazerParableGoogleFlu2014">Lazer et al. (<a href="#ref-lazerParableGoogleFlu2014" role="doc-biblioref">2014</a>)</span> illustrates an example of the pitfall of “big data hubris”, where one might be tempted to ignore foundational issues just become they have access to a lot of data. Google Flu Trends (GFT) tried to predict flu outbreaks based on search data. The idea was that an increase in searches related to flu symptoms would indicate an upcoming flu outbreak. While GFT was initially seen as rather successful, it consistently overestimated the prevalence of the flu. In fact, just using data from three weeks ago turned out to be a better predictor than GFT!</p>
+<p><span class="citation" data-cites="lazerParableGoogleFlu2014">Lazer et al. (<a href="#ref-lazerParableGoogleFlu2014" role="doc-biblioref">2014</a>)</span> suggest a few things that could have gone wrong here. First, Google is not a static entity. The search algorithm is constantly changing. They suggest this highlights the needs for greater transparency and replicability in research. Further, they suggest there was little value in improving over the existing, simpler lagged model from the CDC. Just because you can does not always mean you should. Finally, they caution that just because a model has more data behind it, that does not guarantee it is better.</p>
 </section>
 <section id="best-practices" class="level2">
 
@@ -265,6 +278,9 @@ Barbaro, Michael, and Tom Zeller Jr. 2006. <span>“A <span>Face Is Exposed</spa
 </div>
 <div id="ref-charlottejeeYouReVery2019" class="csl-entry" role="listitem">
 Charlotte Jee. 2019. <span>“You’re Very Easy to Track down, Even When Your Data Has Been Anonymized.”</span> <em>MIT Technology Review</em>. https://www.technologyreview.com/2019/07/23/134090/youre-very-easy-to-track-down-even-when-your-data-has-been-anonymized/.
+</div>
+<div id="ref-salganikEthics2018" class="csl-entry" role="listitem">
+<span>“Ethics.”</span> 2018. In <em>Bit by Bit: Social Research in the Digital Age</em>, 281–354. <span>Princeton</span>: <span>Princeton University Press</span>.
 </div>
 <div id="ref-kenneallyMenloReportEthical2012" class="csl-entry" role="listitem">
 Kenneally, Erin, and David Dittrich. 2012. <span>“The <span>Menlo Report</span>: <span>Ethical Principles Guiding Information</span> and <span>Communication Technology Research</span>.”</span> <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.2445102">https://doi.org/10.2139/ssrn.2445102</a>.

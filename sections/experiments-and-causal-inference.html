@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="How can we answer cause-and-effect questions using computational social science?">
 
-<title>Computational Social Science Syllabus - Experiments and Causal Inference</title>
+<title>Introduction to Computational Social Science - Experiments and Causal Inference</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -97,9 +98,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Computational Social Science Syllabus
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/defining-computational-social-science.html">Sections</a></li><li class="breadcrumb-item"><a href="../sections/experiments-and-causal-inference.html">Experiments and Causal Inference</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -114,7 +113,7 @@ div.csl-indent {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../">Computational Social Science Syllabus</a> 
+      <a href="../">Introduction to Computational Social Science</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -137,6 +136,12 @@ div.csl-indent {
   <div class="sidebar-item-container"> 
   <a href="../syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../readings-overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Readings Overview</span></a>
   </div>
 </li>
       </ul>
@@ -168,6 +173,12 @@ div.csl-indent {
  <span class="menu-text">Ethics and Best Practices</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sections/experiments-and-causal-inference.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Experiments and Causal Inference</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -181,11 +192,16 @@ div.csl-indent {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/defining-computational-social-science.html">Sections</a></li><li class="breadcrumb-item"><a href="../sections/experiments-and-causal-inference.html">Experiments and Causal Inference</a></li></ol></nav>
     <div class="quarto-title">
         <h1 class="title">Experiments and Causal Inference</h1>
                 </div>
     
+        <div>
+      <div class="description">
+        How can we answer cause-and-effect questions using computational social science?
+      </div>
+    </div>
         
     
     <div class="quarto-title-meta">
@@ -201,8 +217,9 @@ div.csl-indent {
         <h3 class="anchored">Readings</h3>
         <div>
         <div><ul>
-<li><span class="citation" data-cites="grimmerWeAreAll2015">Grimmer (<a href="#ref-grimmerWeAreAll2015" role="doc-biblioref">2015</a>)</span></li>
-<li><span class="citation" data-cites="chandrasekharanYouCanStay2017">Chandrasekharan et al. (<a href="#ref-chandrasekharanYouCanStay2017" role="doc-biblioref">2017</a>)</span></li>
+<li><span class="citation" data-cites="salganikRunningExperiments2018"><span>“Running <span>Experiments</span>”</span> (<a href="#ref-salganikRunningExperiments2018" role="doc-biblioref">2018</a>)</span> <a href="https://www.bitbybitbook.com/en/1st-ed/running-experiments/">[link]</a></li>
+<li><span class="citation" data-cites="grimmerWeAreAll2015">Grimmer (<a href="#ref-grimmerWeAreAll2015" role="doc-biblioref">2015</a>)</span> <a href="https://doi.org/10.1017/S1049096514001784">[link]</a></li>
+<li><span class="citation" data-cites="chandrasekharanYouCanStay2017">Chandrasekharan et al. (<a href="#ref-chandrasekharanYouCanStay2017" role="doc-biblioref">2017</a>)</span> <a href="https://doi.org/10.1145/3134666">[link]</a></li>
 </ul></div>
         </div>
       </div>
@@ -211,14 +228,18 @@ div.csl-indent {
   </header>
 
 
-<p>You have have heard the phrase “correlation does not imply causation”. This is usually used to say that just because two variables are associated with each other, that does not mean one causes each other. <a href="https://www.tylervigen.com/spurious-correlations">This website</a> can generate spurious correlations for you.</p>
+<p>You have have heard the phrase “correlation does not imply causation”. This is usually used to say that just because two variables are associated with each other, that does not mean one causes each other. <a href="https://www.tylervigen.com/spurious-correlations">This website</a> can generate spurious correlations for you. For example, the number of people who drowned by falling into a pool correlates with the number of films Nicolas Cage appeared in. Does this mean that Nicolas Cage causes people to drown? Probably not.</p>
+<p>One problem which comes up a lot is that given enough data, you will find a lot of correlations. And many of those correlations will be meaningless. This can relate to a practice known as HARKing (hypothesizing after the results are known), where scientists get a large dataset, create findings based on that dataset, and then draw conclusions only after seeing what the data already says.</p>
+<p>On the other hand, we often want to come away with causal conclusions from research. We want to know, for instance, if a particular approach to content moderation is effective, as was the case in <span class="citation" data-cites="chandrasekharanYouCanStay2017">Chandrasekharan et al. (<a href="#ref-chandrasekharanYouCanStay2017" role="doc-biblioref">2017</a>)</span>’s study of Reddit’s quarantine policy.</p>
 <p>So if correlation does not imply causation, how do we establish causation? Generally, we use experiments. For example, in medicine, we might test the effectiveness of a new drug by running a randomized control trial (RCT). People are split into a <em>treatment</em> group, where they receive the drug, and a control group, where they do not receive the drug. Assuming that the group was randomized correctly, the we can attribute the difference in outcomes between the two groups to the drug.</p>
 <p>Ideally we would be able to have experiments for everything, but this is not always practical. Causal inference gives us tools to answer <em>why</em> questions when we cannot use randomized control trials.</p>
 <p>The <em>fundamental problem of causal inference</em> is that we cannot observe both a treated unit and its untreated counterfactual at the same time. The goal of causal inference approaches to provide a framework to answer causal questions regardless.</p>
-<p>Some popular techniques include:</p>
-<ul>
-<li>Matching: find other units with similar characteristics.</li>
-</ul>
+<!--
+
+Some popular techniques include:
+
++ Matching: find other units with similar characteristics.
+-->
 
 
 
@@ -229,6 +250,9 @@ Chandrasekharan, Eshwar, Umashanthi Pavalanathan, Anirudh Srinivasan, Adam Glynn
 </div>
 <div id="ref-grimmerWeAreAll2015" class="csl-entry" role="listitem">
 Grimmer, Justin. 2015. <span>“We <span>Are All Social Scientists Now</span>: <span>How Big Data</span>, <span>Machine Learning</span>, and <span>Causal Inference Work Together</span>.”</span> <em>PS: Political Science &amp; Politics</em> 48 (1): 80–83. <a href="https://doi.org/10.1017/S1049096514001784">https://doi.org/10.1017/S1049096514001784</a>.
+</div>
+<div id="ref-salganikRunningExperiments2018" class="csl-entry" role="listitem">
+<span>“Running <span>Experiments</span>.”</span> 2018. In <em>Bit by Bit: Social Research in the Digital Age</em>, 147–229. <span>Princeton</span>: <span>Princeton University Press</span>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
